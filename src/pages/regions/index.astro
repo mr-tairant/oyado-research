@@ -1,4 +1,5 @@
 ---
+import Regions from '../../components/Regions.astro';
 import Layout from '../../layouts/Layout.astro';import {regions,regionSlug,demo} from '../../lib/data';
 ---
-<Layout title="Explore Japan by region — OYADO"><section class="page-head"><p class="eyebrow">A SENSE OF PLACE</p><h1>Across <em>Japan.</em></h1><p>{demo?'Explore the regions represented in our fictional pilot collection.':'Explore the regions represented in our first collection.'}</p></section><section class="region-band"><div>{regions.map(r=><a href={`/regions/${regionSlug(r)}/`}>{r}<span>↗</span></a>)}</div></section></Layout>
+<Layout title="Explore Japan by region — OYADO"><section class="page-head"><p class="eyebrow">A SENSE OF PLACE</p><h1>Across <em>Japan.</em></h1><p>{demo?'Explore the regions represented in our fictional pilot collection.':'Explore the regions represented in our first collection.'}</p></section><Regions/></Layout>

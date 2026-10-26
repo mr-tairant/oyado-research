@@ -1,0 +1,25 @@
+---
+import Photo from './Photo.astro';
+import Regions from './Regions.astro';
+import Card from './Card.astro';
+import {stays,regions,regionSlug,demo} from '../lib/data';
+import {jaStays,regionNames} from '../lib/ja';
+const {ja=false}=Astro.props;
+const prefix=ja?'/ja':'';
+const items=ja?jaStays:stays;
+const order=['hoshinoya-taketomi','hoshinoya-karuizawa','yamatoya','kiraku','hoshinoya-kyoto'];
+const curated=[...items].sort((a,b)=>order.indexOf(a.id)-order.indexOf(b.id));
+const readings=ja?['島の集落に、滞在する。','軽井沢、自然と向き合う時間。','道後の宿と、能舞台。']:['An island shaped by its village.','A quieter rhythm in Karuizawa.','A stay with a stage, in Dogo.'];
+---
+<div class="edition-line"><span>{ja?'日本の宿をめぐる、独立系ジャーナル':'An independent journal of Japanese stays'}</span><span>Japan / Vol. 01</span></div>
+<section class="cover" aria-labelledby="cover-title">
+ <div class="cover-masthead" aria-hidden="true">OYADO<span>JOURNAL</span></div>
+ <div class="cover-image">{!demo?<Photo id="hoshinoya-kyoto" variant="hero" ja={ja}/>:<div class="demo-cover">Imagined Japan · Fictional preview</div>}
+ <div class="cover-title"><p>{ja?'創刊特集 — 日本の宿、その土地の時間':'The first collection — A sense of place'}</p><h1 id="cover-title">{ja?<>旅に、<br/>余白を。</>:<>The art of<br/><em>staying.</em></>}</h1></div></div>
+ <div class="cover-bottom"><p>{ja?'庭の静けさ、土地の気配。宿から始まる、日本の旅。':'Gardens, landscapes, a different pace. Japan, through its places to stay.'}</p><a href={`${prefix}/stays/${demo?items[0].id:"hoshinoya-kyoto"}/`}>{demo?'Explore the fictional collection':ja?'星のや京都を読む':'Discover HOSHINOYA Kyoto'} <span>↗</span></a></div>
+</section>
+<section class="opening"><span class="section-number">01 / {ja?'宿の特集':'The collection'}</span><h2>{ja?<>その土地を知る、<br/>一軒に出会う。</>:<>A place to stay.<br/>A way into Japan.</>}</h2><div><p>{ja?'日本各地の旅館とホテルを、出典のある情報で紹介します。客室、食事、温泉、アクセス。自分に合う宿を探すための、小さな旅のジャーナルです。':'Five source-based guides to places across Japan. Architecture, landscapes and the details that help you choose a stay.'}</p><a class="text-link" href={`${prefix}/stays/`}>{ja?'すべての宿を見る':'Explore all stays'} <span>↗</span></a></div></section>
+<section class="feature-collection" aria-label={ja?'5つの宿':'Five stays'}><div class="editorial-grid">{curated.map((p,i)=><Card stay={p} index={i} ja={ja}/>)}</div></section>
+<Regions ja={ja}/>
+<section class="journal"><div class="section-heading"><div><span class="section-number">03 / Journal</span><h2>{ja?'宿を読む、旅を想う。':'Read your way into Japan.'}</h2></div><p>{ja?'コレクションから、3つのガイド':'Three guides from the collection'}</p></div><div class="journal-index">{curated.slice(0,3).map((p,i)=><a href={`${prefix}/stays/${p.id}/`}><span class="index-no">0{i+1}</span><div><small>{ja?regionNames[p.region]:p.region} / {p.name}</small><h3>{readings[i]}</h3><p>{p.intro}</p></div><span>↗</span></a>)}</div></section>
+<section class="colophon"><span>{ja?'編集室より':'From the editors'}</span><h2>{ja?<>一つひとつの情報に、<br/>確かな出典を。</>:<>Good stories begin<br/>with honest details.</>}</h2><div><p>{ja?'私たちが届けるのは、公式情報をたどる宿泊ガイド。実泊や取材の物語を創作せず、出典と人の確認を大切にしています。':'We trace information to its sources and review it before publication. These guides are not first-hand stays; interviews appear only after a real conversation.'}</p><a class="text-link" href={`${prefix}/about/`}>{ja?'OYADOの編集方針':'Our editorial approach'} ↗</a></div></section>

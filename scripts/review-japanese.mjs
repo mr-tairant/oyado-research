@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import crypto from 'node:crypto';
-const files=['src/lib/ja.ts','src/pages/ja/[...page].astro',...fs.readdirSync('src/content/stays-ja').map(f=>'src/content/stays-ja/'+f)];
+const files=['src/lib/ja.ts','src/pages/ja/[...page].astro','src/components/Home.astro','src/components/Regions.astro','src/components/Card.astro','src/components/Photo.astro','src/layouts/Layout.astro','src/styles/global.css','src/styles/editorial.css',...fs.readdirSync('src/content/stays-ja').map(f=>'src/content/stays-ja/'+f)];
 const hash=file=>crypto.createHash('sha256').update(fs.readFileSync(file,'utf8').replace(/\r\n/g,'\n')).digest('hex');
 const file='data/japanese-review.json';
 if(process.argv.includes('--prepare')){

@@ -1,0 +1,9 @@
+---
+import Photo from './Photo.astro';
+import {stays,regions,regionSlug,demo} from '../lib/data';
+import {jaStays,regionNames} from '../lib/ja';
+const {ja=false}=Astro.props;
+const prefix=ja?'/ja':'';
+const items=ja?jaStays:stays;
+---
+<section class="atlas"><div class="atlas-heading"><span class="section-number">02 / {ja?'地域をめぐる':'An atlas of stays'}</span><h2>{ja?<>北の湯けむりから、<br/>南の島時間まで。</>:<>From northern springs<br/>to southern islands.</>}</h2><p>{ja?'5つの地域、5つの宿。次の旅の輪郭を探して。':'Five regions. Five places. Find the shape of your next journey.'}</p>{!demo&&<Photo id="kiraku" variant="atlas" ja={ja}/>}</div><div class="region-index">{regions.map((r,i)=><a href={`${prefix}/regions/${regionSlug(r)}/`}><span class="index-no">0{i+1}</span><span><strong>{ja?regionNames[r]:r}</strong><small>{ja?r:'Japan'} / {items.filter(p=>p.region===r).length} {ja?'軒の宿':'stay'}</small></span><span class="index-arrow">↗</span></a>)}</div></section>
