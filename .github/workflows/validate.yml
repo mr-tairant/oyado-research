@@ -13,5 +13,7 @@ jobs:
       - run: npm run typecheck
       - run: npm run build
         env:
-          PUBLICATION_MODE: ${{ vars.PUBLICATION_MODE || 'demo' }}
-          SITE_URL: ${{ vars.SITE_URL || 'https://example.invalid' }}
+          PUBLICATION_MODE: production
+          SITE_URL: https://oyado-journal.pages.dev
+      - run: node scripts/check-output.mjs dist production
+      - run: npm audit --omit=dev --audit-level=high
