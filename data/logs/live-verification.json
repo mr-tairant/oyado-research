@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T04:42:33.499Z",
+  "checked_at": "2026-10-26T05:08:00.736Z",
   "site": "https://oyado-journal.pages.dev",
   "status": "passed",
   "pages": [
@@ -86,6 +86,90 @@
       "status": 200,
       "canonical": true,
       "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/about/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/stays/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/regions/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/stays/yamatoya/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/stays/hoshinoya-taketomi/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/stays/hoshinoya-karuizawa/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/stays/kiraku/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/stays/hoshinoya-kyoto/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/regions/shikoku/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/regions/okinawa/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/regions/chubu/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/regions/tohoku/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/ja/regions/kansai/",
+      "status": 200,
+      "canonical": true,
+      "public_content": true
     }
   ],
   "assets": [
@@ -99,6 +183,26 @@
     },
     {
       "url": "https://oyado-journal.pages.dev/og.png",
+      "status": 200
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/_astro/yamatoya.V7mMtchY_2nAsTd.webp",
+      "status": 200
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/_astro/kiraku.DLHN3gvL_ZBKwbe.webp",
+      "status": 200
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/_astro/hoshinoya-kyoto.BS-tmHjo_Z2fBsRt.webp",
+      "status": 200
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/_astro/hoshinoya-karuizawa.lmKwMIiL_Zago2R.webp",
+      "status": 200
+    },
+    {
+      "url": "https://oyado-journal.pages.dev/_astro/hoshinoya-taketomi.CJN7C4Mv_Z22QjfS.webp",
       "status": 200
     }
   ],
