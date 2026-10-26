@@ -1,3 +1,8 @@
 name = "oyado-journal"
 pages_build_output_dir = "./dist"
 compatibility_date = "2026-10-26"
+
+[vars]
+PUBLICATION_MODE = "production"
+SITE_URL = "https://oyado-journal.pages.dev"
+NODE_VERSION = "24"

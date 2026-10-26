@@ -28,6 +28,6 @@ The five real properties from seed 42 have source-backed English articles, appro
 
 `npm run dev:review` opens the five real guides locally on port 4322. `npm run build:review` writes noindex review output to `dist-review/`, which must remain local. With SITE_URL=https://oyado-journal.pages.dev set in the shell, `npm run build:production` builds only approved guides into `dist/`. Then run `node scripts/check-output.mjs dist production`.
 
-The publish workflow is manual; an ordinary push does not deploy. See [release review](docs/release-review.md).
+The live project uses Cloudflare Pages' Git integration: pushes to `main` trigger a production build, including the editorial approval checks. `.github/workflows/publish.yml` is an optional manual alternative requiring separate secrets. See [release review](docs/release-review.md).
 
 The paid-generation adapter follows the [official OpenAI Responses text-generation guide](https://developers.openai.com/api/docs/guides/text). Its network path is intentionally unexecuted in the demo. Optional collectors are `scripts/collect_allowed.py`, `scripts/extract.py` and `scripts/screenshot_allowed.py`; see operations before granting any URL permissions.

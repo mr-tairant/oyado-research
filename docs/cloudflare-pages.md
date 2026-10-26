@@ -14,6 +14,8 @@
 
 `wrangler.toml` に静的出力先を定義。DB、Workersアダプターは不要です。カスタムドメイン設定後はcanonical・sitemap・OGPのURLを確認してください。OG画像は自作SVGから生成したPNGを利用しています。
 
-手動デプロイをGitHub Actionsから行う場合は `.github/workflows/publish.yml` を使用。Cloudflare Pages編集権限を対象アカウントに限定したAPIトークンとアカウントIDをGitHub Secrets（CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID）へ直接設定し、production environmentの実行権限を設定します。ActionsでconfirmationにPUBLISHを入力して実行。通常のpushではデプロイしません。
+実プロジェクトはGitHub連携方式です。mainへのpushでCloudflareの本番ビルドとデプロイが自動起動します。現在のWrangler設定が環境変数の管理元となるため、PUBLICATION_MODE / SITE_URL / NODE_VERSIONはwrangler.tomlのvarsに記録し、Nodeバージョンは.node-versionにも固定しています。ダッシュボードの入力だけではWrangler設定に上書きされる点に注意してください。公開検証ゲートを通らないビルドは公開されません。
+
+別途、手動デプロイをGitHub Actionsから行う場合は `.github/workflows/publish.yml` を使用。Cloudflare Pages編集権限を対象アカウントに限定したAPIトークンとアカウントIDをGitHub Secrets（CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID）へ直接設定し、production environmentの実行権限を設定します。ActionsでconfirmationにPUBLISHを入力して実行。このworkflow自体は通常のpushでは起動しませんが、接続済みCloudflareの自動ビルドは起動します。
 
 参考: [Cloudflare公式・CIからのDirect Upload](https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/)。Git連携を選ぶ場合はAPIトークンを作る必要はありません。
