@@ -1,81 +1,133 @@
 {
   "property_id": "yamatoya",
+  "researched_at": "2026-10-26T04:12:52.000Z",
   "identity_checks": {
-    "name": false,
-    "address": false,
-    "official_cross_reference": false
+    "name": true,
+    "address": true,
+    "official_cross_reference": true
   },
+  "identity_evidence": {
+    "name": "Yamatoya Honten",
+    "address": "20-8 Dogo Yunomachi, Matsuyama, Ehime 790-0842, Japan",
+    "official_url": "https://www.yamatoyahonten.com/en/",
+    "checked_by": "Codex (source comparison; publication requires human approval)"
+  },
+  "editorial_notes": [
+    "Do not confuse with Yamatoya Honten in Osaka.",
+    "English official text and the facility's Rakuten FAQ differ on in-room dining; omit meal location until clarified.",
+    "Do not repeat conflicting third-party check-in times or outdated parking charges."
+  ],
   "entries": [
     {
       "source_name": "official",
-      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama official",
-      "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.666Z",
-      "confidence": 0,
-      "verification_status": "unverified",
-      "status": "research_lead",
-      "results": [],
-      "candidate_url": "https://www.yamatoyahonten.com/en/"
+      "query": null,
+      "source_url": "https://www.yamatoyahonten.com/en/",
+      "candidate_url": "https://www.yamatoyahonten.com/en/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "status": "official_text_checked",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "Property name and address match the saved candidate.",
+      "domain_filters": []
     },
     {
       "source_name": "Rakuten Travel",
-      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:travel.rakuten.co.jp",
+      "query": "大和屋本店 道後 20-8",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.668Z",
-      "confidence": 0,
+      "candidate_url": "https://travel.rakuten.co.jp/HOTEL/13429/13429.html",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "travel.rakuten.co.jp",
+        "hotel.travel.rakuten.co.jp"
+      ]
     },
     {
       "source_name": "Jalan",
-      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:jalan.net",
+      "query": "大和屋本店 道後",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.668Z",
-      "confidence": 0,
+      "candidate_url": "https://www.jalan.net/yad354082/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "jalan.net"
+      ]
     },
     {
       "source_name": "Ikyu",
-      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:ikyu.com",
+      "query": "大和屋本店 道後 松山",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.668Z",
-      "confidence": 0,
+      "candidate_url": "https://www.ikyu.com/00000663/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "ikyu.com"
+      ]
     },
     {
       "source_name": "Booking.com",
-      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:booking.com",
+      "query": "Yamatoya Honten Matsuyama 20-8",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.668Z",
-      "confidence": 0,
+      "candidate_url": "https://www.booking.com/hotel/jp/yamatoya-honten-matsuyama.ja.html",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "booking.com"
+      ]
     },
     {
       "source_name": "Agoda",
-      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:agoda.com",
+      "query": "Yamatoya Honten Matsuyama",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.668Z",
-      "confidence": 0,
+      "candidate_url": "https://www.agoda.com/yamatoya-honten-dogo-h10565536/hotel/matsuyama-jp.html",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "agoda.com"
+      ]
     },
     {
       "source_name": "Expedia",
-      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:expedia.com",
+      "query": "Yamatoya Honten Matsuyama",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.668Z",
-      "confidence": 0,
+      "candidate_url": "https://www.expedia.com/Matsuyama-Hotels-Yamatoya-Honten.h16000964.Hotel-Information",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "expedia.com"
+      ]
     }
   ]
 }

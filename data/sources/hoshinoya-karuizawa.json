@@ -1,81 +1,175 @@
 {
   "property_id": "hoshinoya-karuizawa",
+  "researched_at": "2026-10-26T04:12:52.000Z",
   "identity_checks": {
-    "name": false,
-    "address": false,
-    "official_cross_reference": false
+    "name": true,
+    "address": true,
+    "official_cross_reference": true
   },
+  "identity_evidence": {
+    "name": "HOSHINOYA Karuizawa",
+    "address": "2148 Nagakura, Karuizawa-machi, Nagano 389-0194, Japan",
+    "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+    "checked_by": "Codex (source comparison; publication requires human approval)"
+  },
+  "editorial_notes": [
+    "Overview mentions Karuizawa Station while dedicated access page specifies Naka-Karuizawa Station. Do not publish either as the settled current pickup point."
+  ],
   "entries": [
     {
       "source_name": "official",
-      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa official",
-      "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.671Z",
-      "confidence": 0,
-      "verification_status": "unverified",
-      "status": "research_lead",
-      "results": [],
-      "candidate_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/access/"
+      "query": null,
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+      "candidate_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "status": "official_text_checked",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "Property name and address match the saved candidate.",
+      "domain_filters": []
     },
     {
       "source_name": "Rakuten Travel",
-      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:travel.rakuten.co.jp",
+      "query": "星のや軽井沢 長倉",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.671Z",
-      "confidence": 0,
+      "candidate_url": "https://travel.rakuten.co.jp/HOTEL/172989/THEME/2/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "travel.rakuten.co.jp",
+        "hotel.travel.rakuten.co.jp"
+      ]
     },
     {
       "source_name": "Jalan",
-      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:jalan.net",
+      "query": "星のや軽井沢",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "candidate_url": null,
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
       "confidence": 0,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "search_completed_not_confirmed",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "jalan.net"
+      ]
     },
     {
       "source_name": "Ikyu",
-      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:ikyu.com",
+      "query": "星のや軽井沢",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "candidate_url": null,
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
       "confidence": 0,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "search_completed_not_confirmed",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "ikyu.com"
+      ]
     },
     {
       "source_name": "Booking.com",
-      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:booking.com",
+      "query": "HOSHINOYA Karuizawa",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "candidate_url": null,
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
       "confidence": 0,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "search_completed_not_confirmed",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "booking.com"
+      ]
     },
     {
       "source_name": "Agoda",
-      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:agoda.com",
+      "query": "HOSHINOYA Karuizawa",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "candidate_url": null,
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
       "confidence": 0,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "search_completed_not_confirmed",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "agoda.com"
+      ]
     },
     {
       "source_name": "Expedia",
-      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:expedia.com",
+      "query": "HOSHINOYA Karuizawa",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.671Z",
-      "confidence": 0,
+      "candidate_url": "https://www.expedia.com/Karuizawa-Hotels-HOSHINOYA-Karuizawa.h2824199.Hotel-Information",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "expedia.com"
+      ]
+    },
+    {
+      "source_name": "Official website",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/access/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "status": "official_text_checked",
+      "verification_method": "Published name, address and property-specific official page cross-checked by Codex; human article approval pending",
+      "access_method": "built_in_search_service_public_text",
+      "automation_permission": "not_granted",
+      "screenshot_permission": "not_granted",
+      "evidence": [
+        {
+          "field": "address",
+          "section": "Address"
+        },
+        {
+          "field": "access",
+          "section": "Arrival by train"
+        },
+        {
+          "field": "international_traveler_notes",
+          "section": "Free Shuttle; compared with overview Shuttle service"
+        }
+      ]
+    },
+    {
+      "source_name": "Official website",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/dining/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "status": "official_text_checked",
+      "verification_method": "Published name, address and property-specific official page cross-checked by Codex; human article approval pending",
+      "access_method": "built_in_search_service_public_text",
+      "automation_permission": "not_granted",
+      "screenshot_permission": "not_granted",
+      "evidence": [
+        {
+          "field": "dining",
+          "section": "In-Room Dining and Breakfast"
+        }
+      ]
     }
   ]
 }

@@ -30,12 +30,14 @@
 
 明示的な有料利用承認後、OPENAI_API_KEY と ALLOW_PAID_OPENAI=1 を設定し `npm run generate`。生成結果は必ず draft となり、再生成は承認を取り消します。モデル出力には人の事実確認が必要です。
 
-人が記事全体（intro・タグを含む）を確認後 `node scripts/review.mjs ID REVIEWER` で承認と内容ハッシュを記録。`npm run validate`。承認後に本文またはJSONが変わると検証が失敗します。取材記事は `src/content/interviews/README.md` を参照。
+人が記事全体（intro・タグを含む）を確認後 `node scripts/review.mjs ID REVIEWER "承認の根拠"`、全件ならIDに `--all` を指定して承認と内容ハッシュを記録。対象は data/review-request.json のハッシュと一致する草稿だけです。`npm run validate`。承認後に本文またはJSONが変わると検証が失敗します。取材記事は `src/content/interviews/README.md` を参照。
 
 公開検証は `data/sources/<research_id または id>.json` の identity_checks（name/address/official_cross_reference）が全てtrueで、各factのsource_urlが verified のentryと一致することも必須とします。確認できなければ承認できません。
 
 PUBLICATION_MODE=production と実URLの SITE_URL でビルドすると、承認済み実データだけ出力。デモは除外されます。生成記事は第三者HTMLを実行せず、リンク・画像は無効化して出典リンクを別枠表示。公開写真は権限確認ワークフロー追加まで利用不可です。
 
 ## GitHub
+
+初回公開は保存した抽選の5施設すべての承認が必要です。`npm run dev:review` は実施設の草稿をローカル4322番で表示し、`npm run build:review` はnoindexのdist-reviewへ出力します。レビュー用ファイルは公開しません。collectの再実行は確認済みの出典記録を保持し、キー未設定のgenerateは既存の実施設記事を保持します。
 
 秘密情報が差分にないことを確認し `npm run validate && npm test && npm run build`。`git add .` / `git commit -m "Build OYADO editorial MVP"` でコミットできます。pushと外部アカウント操作は利用者確認後。GitHub Actions でPR時にビルドを再確認します。公開ブランチへのマージにこのチェックを必須にする保護ルールを設定してください。

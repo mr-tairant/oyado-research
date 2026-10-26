@@ -1,212 +1,282 @@
 [
   {
     "property": "Yamatoya Honten",
+    "property_id": "yamatoya",
     "media": "official",
-    "status": "research_lead",
-    "verification_status": "unverified"
+    "status": "official_text_checked",
+    "verification_status": "verified",
+    "url": "https://www.yamatoyahonten.com/en/"
   },
   {
     "property": "Yamatoya Honten",
+    "property_id": "yamatoya",
     "media": "Rakuten Travel",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://travel.rakuten.co.jp/HOTEL/13429/13429.html"
   },
   {
     "property": "Yamatoya Honten",
+    "property_id": "yamatoya",
     "media": "Jalan",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://www.jalan.net/yad354082/"
   },
   {
     "property": "Yamatoya Honten",
+    "property_id": "yamatoya",
     "media": "Ikyu",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://www.ikyu.com/00000663/"
   },
   {
     "property": "Yamatoya Honten",
+    "property_id": "yamatoya",
     "media": "Booking.com",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://www.booking.com/hotel/jp/yamatoya-honten-matsuyama.ja.html"
   },
   {
     "property": "Yamatoya Honten",
+    "property_id": "yamatoya",
     "media": "Agoda",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://www.agoda.com/yamatoya-honten-dogo-h10565536/hotel/matsuyama-jp.html"
   },
   {
     "property": "Yamatoya Honten",
+    "property_id": "yamatoya",
     "media": "Expedia",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://www.expedia.com/Matsuyama-Hotels-Yamatoya-Honten.h16000964.Hotel-Information"
   },
   {
     "property": "HOSHINOYA Taketomi Island",
+    "property_id": "hoshinoya-taketomi",
     "media": "official",
-    "status": "research_lead",
-    "verification_status": "unverified"
+    "status": "official_text_checked",
+    "verification_status": "verified",
+    "url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/"
   },
   {
     "property": "HOSHINOYA Taketomi Island",
+    "property_id": "hoshinoya-taketomi",
     "media": "Rakuten Travel",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "editorial_page_only",
+    "verification_status": "unverified",
+    "url": "https://travel.rakuten.co.jp/mytrip/howto/hoshinoya-taketomijima-guide"
   },
   {
     "property": "HOSHINOYA Taketomi Island",
+    "property_id": "hoshinoya-taketomi",
     "media": "Jalan",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "HOSHINOYA Taketomi Island",
+    "property_id": "hoshinoya-taketomi",
     "media": "Ikyu",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://www.ikyu.com/00003309/"
   },
   {
     "property": "HOSHINOYA Taketomi Island",
+    "property_id": "hoshinoya-taketomi",
     "media": "Booking.com",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "HOSHINOYA Taketomi Island",
+    "property_id": "hoshinoya-taketomi",
     "media": "Agoda",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://www.agoda.com/hoshinoya-taketomi-island/hotel/taketomi-jp.html"
   },
   {
     "property": "HOSHINOYA Taketomi Island",
+    "property_id": "hoshinoya-taketomi",
     "media": "Expedia",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "HOSHINOYA Karuizawa",
+    "property_id": "hoshinoya-karuizawa",
     "media": "official",
-    "status": "research_lead",
-    "verification_status": "unverified"
+    "status": "official_text_checked",
+    "verification_status": "verified",
+    "url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/"
   },
   {
     "property": "HOSHINOYA Karuizawa",
+    "property_id": "hoshinoya-karuizawa",
     "media": "Rakuten Travel",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://travel.rakuten.co.jp/HOTEL/172989/THEME/2/"
   },
   {
     "property": "HOSHINOYA Karuizawa",
+    "property_id": "hoshinoya-karuizawa",
     "media": "Jalan",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "HOSHINOYA Karuizawa",
+    "property_id": "hoshinoya-karuizawa",
     "media": "Ikyu",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "HOSHINOYA Karuizawa",
+    "property_id": "hoshinoya-karuizawa",
     "media": "Booking.com",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "HOSHINOYA Karuizawa",
+    "property_id": "hoshinoya-karuizawa",
     "media": "Agoda",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "HOSHINOYA Karuizawa",
+    "property_id": "hoshinoya-karuizawa",
     "media": "Expedia",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://www.expedia.com/Karuizawa-Hotels-HOSHINOYA-Karuizawa.h2824199.Hotel-Information"
   },
   {
     "property": "KIRAKU ONSEN LIVING",
+    "property_id": "kiraku",
     "media": "official",
-    "status": "research_lead",
-    "verification_status": "unverified"
+    "status": "official_text_checked",
+    "verification_status": "verified",
+    "url": "https://www.zao-kiraku.co.jp/en"
   },
   {
     "property": "KIRAKU ONSEN LIVING",
+    "property_id": "kiraku",
     "media": "Rakuten Travel",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "official_outbound_link_verified",
+    "verification_status": "verified",
+    "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/12535"
   },
   {
     "property": "KIRAKU ONSEN LIVING",
+    "property_id": "kiraku",
     "media": "Jalan",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "official_outbound_link_verified",
+    "verification_status": "verified",
+    "url": "https://www.jalan.net/yad325153/"
   },
   {
     "property": "KIRAKU ONSEN LIVING",
+    "property_id": "kiraku",
     "media": "Ikyu",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "KIRAKU ONSEN LIVING",
+    "property_id": "kiraku",
     "media": "Booking.com",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "official_outbound_link_verified",
+    "verification_status": "verified",
+    "url": "https://www.booking.com/hotel/jp/xi-raku.en-gb.html"
   },
   {
     "property": "KIRAKU ONSEN LIVING",
+    "property_id": "kiraku",
     "media": "Agoda",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://www.agoda.com/sv-se/zao-spa-hotel-kiraku/hotel/sendai-jp.html"
   },
   {
     "property": "KIRAKU ONSEN LIVING",
+    "property_id": "kiraku",
     "media": "Expedia",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "HOSHINOYA Kyoto",
+    "property_id": "hoshinoya-kyoto",
     "media": "official",
-    "status": "research_lead",
-    "verification_status": "unverified"
+    "status": "official_text_checked",
+    "verification_status": "verified",
+    "url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/"
   },
   {
     "property": "HOSHINOYA Kyoto",
+    "property_id": "hoshinoya-kyoto",
     "media": "Rakuten Travel",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://travel.rakuten.co.jp/HOTEL/172992/THEME/1/"
   },
   {
     "property": "HOSHINOYA Kyoto",
+    "property_id": "hoshinoya-kyoto",
     "media": "Jalan",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "HOSHINOYA Kyoto",
+    "property_id": "hoshinoya-kyoto",
     "media": "Ikyu",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "editorial_page_only",
+    "verification_status": "unverified",
+    "url": "https://www.ikyu.com/concierge/tag/00001576"
   },
   {
     "property": "HOSHINOYA Kyoto",
+    "property_id": "hoshinoya-kyoto",
     "media": "Booking.com",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   },
   {
     "property": "HOSHINOYA Kyoto",
+    "property_id": "hoshinoya-kyoto",
     "media": "Agoda",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "candidate_requires_identity_check",
+    "verification_status": "unverified",
+    "url": "https://www.agoda.com/hoshinoya-kyoto-h80060022/hotel/kyoto-jp.html"
   },
   {
     "property": "HOSHINOYA Kyoto",
+    "property_id": "hoshinoya-kyoto",
     "media": "Expedia",
-    "status": "skipped_no_key",
-    "verification_status": "unverified"
+    "status": "search_completed_not_confirmed",
+    "verification_status": "unverified",
+    "url": null
   }
 ]

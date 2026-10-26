@@ -1,0 +1,48 @@
+{
+  "source_urls": [
+    "https://www.yamatoyahonten.com/en/"
+  ],
+  "retrieved_at": "2026-10-26T04:12:52.000Z",
+  "method": "Public official-page text and search-index results retrieved through the built-in search service. No paid API, custom crawler, login, screenshots, or hotel photographs used.",
+  "full_html_retained": false,
+  "screenshot_taken": false,
+  "evidence_sections": [
+    {
+      "field": "overview",
+      "section": "History introduction"
+    },
+    {
+      "field": "address",
+      "section": "Footer address"
+    },
+    {
+      "field": "access",
+      "section": "Directions"
+    },
+    {
+      "field": "rooms",
+      "section": "Rooms and Western-style room sections"
+    },
+    {
+      "field": "dining",
+      "section": "Japanese Cuisine"
+    },
+    {
+      "field": "onsen",
+      "section": "Women's and men's large bathing rooms"
+    },
+    {
+      "field": "facilities",
+      "section": "After-bath relaxation lounge"
+    },
+    {
+      "field": "highlights",
+      "section": "Directions"
+    },
+    {
+      "field": "international_traveler_notes",
+      "section": "English page and Directions"
+    }
+  ],
+  "copyright_policy": "Original factual summaries only; no copied photos, reviews or full pages."
+}

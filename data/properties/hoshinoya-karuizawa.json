@@ -1,0 +1,126 @@
+{
+  "id": "hoshinoya-karuizawa",
+  "research_id": "hoshinoya-karuizawa",
+  "mode": "live",
+  "review_status": "approved",
+  "name": "HOSHINOYA Karuizawa",
+  "region": "Chubu",
+  "prefecture": "Nagano",
+  "type": "Resort",
+  "tags": [
+    "Nature",
+    "Pavilion rooms",
+    "Onsen"
+  ],
+  "intro": "Pavilion-style accommodation in Karuizawa, with river-facing and hillside room categories.",
+  "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+  "address": "2148 Nagakura, Karuizawa-machi, Nagano 389-0194, Japan",
+  "facts": [
+    {
+      "field": "overview",
+      "value": "A resort in Karuizawa with pavilion-style guest accommodation.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Rooms and Directions"
+    },
+    {
+      "field": "address",
+      "value": "2148 Nagakura, Karuizawa-machi, Nagano 389-0194, Japan",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/access/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Address"
+    },
+    {
+      "field": "access",
+      "value": "The dedicated access page describes Hokuriku Shinkansen travel from Tokyo to Karuizawa, followed by taxi or local bus to the Hoshino Area.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/access/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Arrival by train"
+    },
+    {
+      "field": "rooms",
+      "value": "Mizunami pavilions face the river; Yamaroji is another named room category.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Mizunami and Yamaroji"
+    },
+    {
+      "field": "dining",
+      "value": "The official dining guide describes in-room dining and Japanese breakfast options with reservations.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/dining/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "In-Room Dining and Breakfast"
+    },
+    {
+      "field": "onsen",
+      "value": "Two onsen facilities are explicitly listed in At a Glance.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "At a Glance Onsen count"
+    },
+    {
+      "field": "facilities",
+      "value": "Wi-Fi is listed for all guest rooms and some public areas.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "At a Glance Wi-Fi"
+    },
+    {
+      "field": "highlights",
+      "value": "The resort presents different pavilion settings within the property.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Rooms"
+    },
+    {
+      "field": "international_traveler_notes",
+      "value": "The dedicated access page and overview give different shuttle pickup stations; confirm the current pickup point with the hotel.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/access/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Free Shuttle; compared with overview Shuttle service"
+    }
+  ],
+  "unverified_fields": [
+    "current_shuttle_pickup",
+    "tattoo_policy",
+    "english_speaking_staff",
+    "step_free_access",
+    "meal_inclusions"
+  ],
+  "editorial_notes": [
+    "Overview mentions Karuizawa Station while dedicated access page specifies Naka-Karuizawa Station. Do not publish either as the settled current pickup point."
+  ],
+  "updated_at": "2026-10-26T04:12:52.000Z",
+  "image": null,
+  "generation": {
+    "method": "Codex editorial synthesis from recorded official facts; no paid OpenAI API request",
+    "generated_at": "2026-10-26T04:17:11.232Z"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "researched_at": "2026-10-26T04:12:52.000Z",
+  "researcher": "Codex (source comparison; publication requires human approval)",
+  "method": "Public official-page text and search-index results retrieved through the built-in search service. No paid API, custom crawler, login, screenshots, or hotel photographs used.",
+  "properties": [
+    {
+      "id": "yamatoya", "type": "Ryokan", "name": "Yamatoya Honten", "region": "Shikoku", "prefecture": "Ehime",
+      "tags": ["Onsen", "Japanese rooms", "Tram access"],
+      "intro": "Tea-room-inspired interiors and hot-spring bathing beside Dogo Onsen Honkan in Matsuyama.",
+      "official_url": "https://www.yamatoyahonten.com/en/",
+      "address": "20-8 Dogo Yunomachi, Matsuyama, Ehime 790-0842, Japan",
+      "facts": [
+        ["overview", "A ryokan founded in 1868 beside Dogo Onsen Honkan.", "main", "History introduction"],
+        ["address", "20-8 Dogo Yunomachi, Matsuyama, Ehime 790-0842, Japan", "main", "Footer address"],
+        ["access", "About five minutes on foot from Dogo Onsen tram station.", "main", "Directions"],
+        ["rooms", "Japanese-style rooms inspired by tea-room architecture, plus Western-style rooms.", "main", "Rooms and Western-style room sections"],
+        ["dining", "Japanese multi-course dinners are described on the official site.", "main", "Japanese Cuisine"],
+        ["onsen", "Indoor and outdoor communal hot-spring baths are described.", "main", "Women's and men's large bathing rooms"],
+        ["facilities", "An after-bath relaxation lounge is described.", "main", "After-bath relaxation lounge"],
+        ["highlights", "Positioned next to the Dogo Onsen Honkan bathhouse.", "main", "Directions"],
+        ["international_traveler_notes", "The official website provides an English-language guide and tram-station walking directions.", "main", "English page and Directions"]
+      ],
+      "unverified_fields": ["english_speaking_staff", "tattoo_policy", "step_free_access", "meal_inclusions", "in_room_dining"],
+      "editorial_notes": ["Do not confuse with Yamatoya Honten in Osaka.", "English official text and the facility's Rakuten FAQ differ on in-room dining; omit meal location until clarified.", "Do not repeat conflicting third-party check-in times or outdated parking charges."],
+      "article": "## A ryokan at the heart of Dogo\n\nYamatoya Honten stands beside Dogo Onsen Honkan in Matsuyama. Founded in 1868, the inn combines Japanese rooms shaped by tea-room architecture with Western-style alternatives.\n\n## Rooms, dining and bathing\n\nChoose a room category deliberately: the options differ in layout and bedding. The official site describes Japanese multi-course dinners, indoor and outdoor hot-spring baths, and a lounge for relaxing after a soak. Confirm what your chosen rate includes.\n\n## Getting there\n\nDogo Onsen tram station is approximately five minutes away on foot. The address is 20-8 Dogo Yunomachi, Matsuyama, Ehime. This guide concerns the Dogo property, not the similarly named inn in Osaka.\n\n## Before reserving\n\nUse the property's English website for current details. Ask directly about dietary needs, bathing rules and accessibility before booking. This is a source-based guide; OYADO has not conducted an owner interview or claimed a personal stay."
+    },
+    {
+      "id": "hoshinoya-taketomi", "type": "Island resort", "name": "HOSHINOYA Taketomi Island", "region": "Okinawa", "prefecture": "Okinawa",
+      "tags": ["Island villas", "Pool", "Ferry journey"],
+      "intro": "Villas shaped by Taketomi Island's architectural traditions, reached by ferry from Ishigaki.",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/",
+      "address": "1955 Taketomi, Taketomi-cho, Yaeyama-gun, Okinawa 907-1101, Japan",
+      "facts": [
+        ["overview", "An island resort with villas designed around local architectural guidelines.", "main", "Rooms"],
+        ["address", "1955 Taketomi, Taketomi-cho, Yaeyama-gun, Okinawa 907-1101, Japan", "access", "Address"],
+        ["access", "Reach Ishigaki Port from Ishigaki Airport, then take a ferry to Taketomi and the hotel shuttle.", "access", "Steps 1-3"],
+        ["rooms", "Villas feature low stone fences, coral-sand yards and living areas.", "main", "Rooms"],
+        ["dining", "Island Terroir is a French dinner drawing on Yaeyama ingredients; advance reservation is required.", "dining", "Island Terroir"],
+        ["facilities", "The overview explicitly lists a pool, restaurant and spa/massage facilities.", "main", "At a Glance named facility counts"],
+        ["highlights", "Architecture references the island's built heritage.", "main", "Rooms"],
+        ["international_traveler_notes", "Ferry operations depend on conditions; consult ferry operators' updates before travel.", "access", "Ferry conditions advisory"]
+      ],
+      "unverified_fields": ["onsen", "english_speaking_staff", "step_free_access", "meal_inclusions", "private_pool"],
+      "editorial_notes": ["Generic Facilities navigation includes labels that are not confirmed amenities. Do not infer an onsen from it.", "Shuttle and ferry durations are approximate, not a current timetable."],
+      "article": "## An island stay with a sense of place\n\nAt HOSHINOYA Taketomi Island, villas reference the island's architectural guidelines through low stone fences and coral-sand yards. Living areas form part of the accommodation. A pool is explicitly listed in the resort overview.\n\n## Dining in the Yaeyama Islands\n\nThe Island Terroir dinner takes a French approach to ingredients from the Yaeyama Islands. Reserve ahead through the property and check meal inclusions separately from your room rate.\n\n## Plan the journey in stages\n\nTravel first to Ishigaki Island, then continue from Ishigaki Port by ferry to Taketomi Port. The hotel's shuttle connects the port and resort. The official access guide gives approximate journey times; they are not a ferry timetable.\n\n## Before reserving\n\nCheck current ferry operations, especially when weather affects sailings. The property is at 1955 Taketomi, Taketomi-cho, Okinawa. This guide does not imply that the resort has an onsen, a private pool or a particular language service unless separately confirmed."
+    },
+    {
+      "id": "hoshinoya-karuizawa", "type": "Resort", "name": "HOSHINOYA Karuizawa", "region": "Chubu", "prefecture": "Nagano",
+      "tags": ["Nature", "Pavilion rooms", "Onsen"],
+      "intro": "Pavilion-style accommodation in Karuizawa, with river-facing and hillside room categories.",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+      "address": "2148 Nagakura, Karuizawa-machi, Nagano 389-0194, Japan",
+      "facts": [
+        ["overview", "A resort in Karuizawa with pavilion-style guest accommodation.", "main", "Rooms and Directions"],
+        ["address", "2148 Nagakura, Karuizawa-machi, Nagano 389-0194, Japan", "access", "Address"],
+        ["access", "The dedicated access page describes Hokuriku Shinkansen travel from Tokyo to Karuizawa, followed by taxi or local bus to the Hoshino Area.", "access", "Arrival by train"],
+        ["rooms", "Mizunami pavilions face the river; Yamaroji is another named room category.", "main", "Mizunami and Yamaroji"],
+        ["dining", "The official dining guide describes in-room dining and Japanese breakfast options with reservations.", "dining", "In-Room Dining and Breakfast"],
+        ["onsen", "Two onsen facilities are explicitly listed in At a Glance.", "main", "At a Glance Onsen count"],
+        ["facilities", "Wi-Fi is listed for all guest rooms and some public areas.", "main", "At a Glance Wi-Fi"],
+        ["highlights", "The resort presents different pavilion settings within the property.", "main", "Rooms"],
+        ["international_traveler_notes", "The dedicated access page and overview give different shuttle pickup stations; confirm the current pickup point with the hotel.", "access", "Free Shuttle; compared with overview Shuttle service"]
+      ],
+      "unverified_fields": ["current_shuttle_pickup", "tattoo_policy", "english_speaking_staff", "step_free_access", "meal_inclusions"],
+      "editorial_notes": ["Overview mentions Karuizawa Station while dedicated access page specifies Naka-Karuizawa Station. Do not publish either as the settled current pickup point."],
+      "article": "## A pavilion stay in Karuizawa\n\nHOSHINOYA Karuizawa arranges its accommodation as guest pavilions. Mizunami rooms face the river, while Yamaroji is another category with a different setting. Choose by room description rather than assuming every pavilion has the same outlook.\n\n## Time for dining and bathing\n\nThe resort overview explicitly lists two onsen facilities and Wi-Fi in guest rooms. Its dining guide includes Japanese breakfast and in-room dining options, with reservations required for the arrangements described. Check meal inclusions when selecting a rate.\n\n## Arriving from Tokyo\n\nThe official access guide describes taking the Hokuriku Shinkansen to Karuizawa and continuing by taxi or local bus to the Hoshino Area. For any hotel transfer, confirm the current station and pickup point directly: the overview and dedicated access page differ.\n\n## Before reserving\n\nThe listed address is 2148 Nagakura, Karuizawa-machi, Nagano. Verify room layout, transport arrangements and any bathing or accessibility requirements with the property. This guide is based on published sources rather than a personal stay."
+    },
+    {
+      "id": "kiraku", "type": "Onsen inn", "name": "KIRAKU ONSEN LIVING", "region": "Tohoku", "prefecture": "Yamagata",
+      "tags": ["Onsen", "Zao", "Renewal planned"],
+      "intro": "A Zao Onsen inn with indoor and outdoor baths, announcing a transition to new accommodation from January 2027.",
+      "official_url": "https://www.zao-kiraku.co.jp/en",
+      "address": "935-25 Zao Onsen, Yamagata City, Yamagata 990-2301, Japan",
+      "facts": [
+        ["overview", "A lodging property in Zao Onsen with indoor and outdoor hot-spring baths.", "main", "Onsen and Access"],
+        ["address", "935-25 Zao Onsen, Yamagata City, Yamagata 990-2301, Japan", "main", "Access"],
+        ["access", "The official guide lists about 45 minutes by bus from JR Yamagata Station, then about seven minutes on foot from Zao Onsen Bus Terminal.", "main", "Access Train & bus"],
+        ["rooms", "The website distinguishes rooms for stays through October 2026 from new rooms for stays beginning 1 January 2027.", "main", "Renewal and Rooms"],
+        ["dining", "The current Dining section says meals are not served. Ground-floor dining and cafe/bar spaces are announced as future plans.", "main", "Dining and Renewal"],
+        ["onsen", "Indoor and outdoor hot-spring baths are described.", "main", "Onsen"],
+        ["facilities", "Free parking is listed in the official access guide.", "main", "Access By car"],
+        ["highlights", "The property announces new room types for stays from 1 January 2027.", "main", "The new rooms"],
+        ["international_traveler_notes", "Room features and dining arrangements need checking for the actual travel dates during the renewal transition.", "main", "Renewal and dated Rooms sections"]
+      ],
+      "unverified_fields": ["november_december_operation", "dining_opening_date", "english_speaking_staff", "tattoo_policy", "step_free_access"],
+      "editorial_notes": ["Time-sensitive: checked 26 October 2026. Do not describe proposed 2027 kitchens, laundry or dining as currently available.", "Do not substitute Kiraku Obi in Miyazaki or Ryokan Kiraku in Oita for this Yamagata property.", "Booking.com blocks body retrieval; official outbound link confirms URL identity only."],
+      "article": "## Zao Onsen, with a change ahead\n\nKIRAKU ONSEN LIVING is in Zao Onsen, Yamagata. Its official website describes indoor and outdoor hot-spring baths.\n\n## Match the room to your dates\n\nChecked on 26 October 2026, the site distinguishes its existing rooms for stays through October from new accommodation beginning 1 January 2027. Apartments and other announced room types belong to that future phase, not to a promise about today's facilities. Confirm operation and room availability for your dates directly.\n\n## Dining during the transition\n\nThe current dining section says meals are not served. Proposed ground-floor dining and cafe/bar spaces are future announcements. Plan meals separately unless your booking explicitly confirms otherwise.\n\n## Getting there\n\nThe official route is approximately 45 minutes by bus from JR Yamagata Station, then a seven-minute walk from Zao Onsen Bus Terminal. The address is 935-25 Zao Onsen, Yamagata City. Transport details and renewal plans should be checked again before travel."
+    },
+    {
+      "id": "hoshinoya-kyoto", "type": "Riverside resort", "name": "HOSHINOYA Kyoto", "region": "Kansai", "prefecture": "Kyoto",
+      "tags": ["Riverside", "Arashiyama", "Boat arrival"],
+      "intro": "An Arashiyama riverside retreat where guest pavilions look toward the gorge and boat transfers require advance arrangements.",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/",
+      "address": "11-2 Arashiyama Genrokuzan-cho, Nishikyo-ku, Kyoto 616-0007, Japan",
+      "facts": [
+        ["overview", "A riverside resort in Arashiyama, Kyoto.", "main", "Introduction and Directions"],
+        ["address", "11-2 Arashiyama Genrokuzan-cho, Nishikyo-ku, Kyoto 616-0007, Japan", "access", "Address"],
+        ["access", "Advance reservation is required for the boat from the waiting area to the accommodation; weather or river conditions can change the transfer.", "access", "Access between boat waiting room and Accommodation"],
+        ["rooms", "The overview lists 25 rooms and describes pavilion windows facing the gorge.", "main", "Rooms and At a Glance"],
+        ["dining", "Japanese breakfast is offered in-room with prior reservation; other dining options are listed separately.", "dining", "In-Room Dining Japanese Breakfast"],
+        ["facilities", "The overview lists Wi-Fi in all rooms and some public areas, and no hotel parking.", "main", "At a Glance Wi-Fi and Parking"],
+        ["highlights", "Guest accommodation overlooks the gorge in Arashiyama.", "main", "Rooms"],
+        ["international_traveler_notes", "Follow the hotel's confirmed arrival instructions for the boat waiting area rather than treating the resort address as a direct car drop-off.", "access", "Arrival by train and boat waiting area instructions"]
+      ],
+      "unverified_fields": ["onsen", "english_speaking_staff", "step_free_access", "meal_inclusions", "current_age_policy"],
+      "editorial_notes": ["Generic Facilities navigation is not evidence of a pool or onsen.", "Do not publish cached OTA child policies without current official confirmation."],
+      "article": "## Arashiyama from the riverside\n\nHOSHINOYA Kyoto is a riverside retreat in Arashiyama. Its guest pavilions look toward the gorge, and the official overview lists 25 rooms. The setting makes the arrival arrangements part of planning a stay.\n\n## Arrange the final leg\n\nThe hotel's dedicated access guide describes a boat transfer from its waiting area to the accommodation, with advance reservation required. Weather and river conditions may change that arrangement. Follow the instructions supplied with your confirmed booking; do not assume the resort address is a direct taxi drop-off.\n\n## Rooms and dining\n\nWi-Fi is listed in guest rooms and some public areas. The dining guide describes Japanese breakfast served in-room with prior reservation, alongside separate dinner options. Check the meal arrangements attached to your selected rate.\n\n## Before reserving\n\nThe property lists no hotel parking. Confirm transport and any specific dietary or accessibility requirements before booking. This source-based guide does not claim an onsen, pool or owner interview, and it does not imply a personal visit."
+    }
+  ]
+}

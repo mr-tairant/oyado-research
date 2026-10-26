@@ -1,0 +1,128 @@
+{
+  "id": "yamatoya",
+  "research_id": "yamatoya",
+  "mode": "live",
+  "review_status": "approved",
+  "name": "Yamatoya Honten",
+  "region": "Shikoku",
+  "prefecture": "Ehime",
+  "type": "Ryokan",
+  "tags": [
+    "Onsen",
+    "Japanese rooms",
+    "Tram access"
+  ],
+  "intro": "Tea-room-inspired interiors and hot-spring bathing beside Dogo Onsen Honkan in Matsuyama.",
+  "official_url": "https://www.yamatoyahonten.com/en/",
+  "address": "20-8 Dogo Yunomachi, Matsuyama, Ehime 790-0842, Japan",
+  "facts": [
+    {
+      "field": "overview",
+      "value": "A ryokan founded in 1868 beside Dogo Onsen Honkan.",
+      "source_url": "https://www.yamatoyahonten.com/en/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "History introduction"
+    },
+    {
+      "field": "address",
+      "value": "20-8 Dogo Yunomachi, Matsuyama, Ehime 790-0842, Japan",
+      "source_url": "https://www.yamatoyahonten.com/en/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Footer address"
+    },
+    {
+      "field": "access",
+      "value": "About five minutes on foot from Dogo Onsen tram station.",
+      "source_url": "https://www.yamatoyahonten.com/en/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Directions"
+    },
+    {
+      "field": "rooms",
+      "value": "Japanese-style rooms inspired by tea-room architecture, plus Western-style rooms.",
+      "source_url": "https://www.yamatoyahonten.com/en/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Rooms and Western-style room sections"
+    },
+    {
+      "field": "dining",
+      "value": "Japanese multi-course dinners are described on the official site.",
+      "source_url": "https://www.yamatoyahonten.com/en/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Japanese Cuisine"
+    },
+    {
+      "field": "onsen",
+      "value": "Indoor and outdoor communal hot-spring baths are described.",
+      "source_url": "https://www.yamatoyahonten.com/en/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Women's and men's large bathing rooms"
+    },
+    {
+      "field": "facilities",
+      "value": "An after-bath relaxation lounge is described.",
+      "source_url": "https://www.yamatoyahonten.com/en/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "After-bath relaxation lounge"
+    },
+    {
+      "field": "highlights",
+      "value": "Positioned next to the Dogo Onsen Honkan bathhouse.",
+      "source_url": "https://www.yamatoyahonten.com/en/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Directions"
+    },
+    {
+      "field": "international_traveler_notes",
+      "value": "The official website provides an English-language guide and tram-station walking directions.",
+      "source_url": "https://www.yamatoyahonten.com/en/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "English page and Directions"
+    }
+  ],
+  "unverified_fields": [
+    "english_speaking_staff",
+    "tattoo_policy",
+    "step_free_access",
+    "meal_inclusions",
+    "in_room_dining"
+  ],
+  "editorial_notes": [
+    "Do not confuse with Yamatoya Honten in Osaka.",
+    "English official text and the facility's Rakuten FAQ differ on in-room dining; omit meal location until clarified.",
+    "Do not repeat conflicting third-party check-in times or outdated parking charges."
+  ],
+  "updated_at": "2026-10-26T04:12:52.000Z",
+  "image": null,
+  "generation": {
+    "method": "Codex editorial synthesis from recorded official facts; no paid OpenAI API request",
+    "generated_at": "2026-10-26T04:17:11.219Z"
+  }
+}

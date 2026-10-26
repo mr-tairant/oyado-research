@@ -1,0 +1,117 @@
+{
+  "id": "hoshinoya-kyoto",
+  "research_id": "hoshinoya-kyoto",
+  "mode": "live",
+  "review_status": "approved",
+  "name": "HOSHINOYA Kyoto",
+  "region": "Kansai",
+  "prefecture": "Kyoto",
+  "type": "Riverside resort",
+  "tags": [
+    "Riverside",
+    "Arashiyama",
+    "Boat arrival"
+  ],
+  "intro": "An Arashiyama riverside retreat where guest pavilions look toward the gorge and boat transfers require advance arrangements.",
+  "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/",
+  "address": "11-2 Arashiyama Genrokuzan-cho, Nishikyo-ku, Kyoto 616-0007, Japan",
+  "facts": [
+    {
+      "field": "overview",
+      "value": "A riverside resort in Arashiyama, Kyoto.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Introduction and Directions"
+    },
+    {
+      "field": "address",
+      "value": "11-2 Arashiyama Genrokuzan-cho, Nishikyo-ku, Kyoto 616-0007, Japan",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/access/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Address"
+    },
+    {
+      "field": "access",
+      "value": "Advance reservation is required for the boat from the waiting area to the accommodation; weather or river conditions can change the transfer.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/access/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Access between boat waiting room and Accommodation"
+    },
+    {
+      "field": "rooms",
+      "value": "The overview lists 25 rooms and describes pavilion windows facing the gorge.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Rooms and At a Glance"
+    },
+    {
+      "field": "dining",
+      "value": "Japanese breakfast is offered in-room with prior reservation; other dining options are listed separately.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/dining/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "In-Room Dining Japanese Breakfast"
+    },
+    {
+      "field": "facilities",
+      "value": "The overview lists Wi-Fi in all rooms and some public areas, and no hotel parking.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "At a Glance Wi-Fi and Parking"
+    },
+    {
+      "field": "highlights",
+      "value": "Guest accommodation overlooks the gorge in Arashiyama.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Rooms"
+    },
+    {
+      "field": "international_traveler_notes",
+      "value": "Follow the hotel's confirmed arrival instructions for the boat waiting area rather than treating the resort address as a direct car drop-off.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/access/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Arrival by train and boat waiting area instructions"
+    }
+  ],
+  "unverified_fields": [
+    "onsen",
+    "english_speaking_staff",
+    "step_free_access",
+    "meal_inclusions",
+    "current_age_policy"
+  ],
+  "editorial_notes": [
+    "Generic Facilities navigation is not evidence of a pool or onsen.",
+    "Do not publish cached OTA child policies without current official confirmation."
+  ],
+  "updated_at": "2026-10-26T04:12:52.000Z",
+  "image": null,
+  "generation": {
+    "method": "Codex editorial synthesis from recorded official facts; no paid OpenAI API request",
+    "generated_at": "2026-10-26T04:17:11.239Z"
+  }
+}

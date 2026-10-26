@@ -1,1 +1,1 @@
-import {demo} from '../lib/data';export function GET({site}:{site:URL}){return new Response(demo?'User-agent: *\nDisallow: /\n':`User-agent: *\nAllow: /\nSitemap: ${new URL('/sitemap.xml',site)}\n`);}
+import {publicBuild} from '../lib/data';export function GET({site}:{site:URL}){return new Response(!publicBuild?'User-agent: *\nDisallow: /\n':`User-agent: *\nAllow: /\nSitemap: ${new URL('/sitemap.xml',site)}\n`);}

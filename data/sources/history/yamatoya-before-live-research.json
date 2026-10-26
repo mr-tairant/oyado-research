@@ -1,0 +1,81 @@
+{
+  "property_id": "yamatoya",
+  "identity_checks": {
+    "name": false,
+    "address": false,
+    "official_cross_reference": false
+  },
+  "entries": [
+    {
+      "source_name": "official",
+      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama official",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.666Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "research_lead",
+      "results": [],
+      "candidate_url": "https://www.yamatoyahonten.com/en/"
+    },
+    {
+      "source_name": "Rakuten Travel",
+      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:travel.rakuten.co.jp",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.668Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Jalan",
+      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:jalan.net",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.668Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Ikyu",
+      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:ikyu.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.668Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Booking.com",
+      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:booking.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.668Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Agoda",
+      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:agoda.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.668Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Expedia",
+      "query": "Yamatoya Honten Ehime Dogo Onsen, Matsuyama site:expedia.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.668Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    }
+  ]
+}

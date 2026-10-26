@@ -1,0 +1,46 @@
+{
+  "source_urls": [
+    "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/",
+    "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/access/",
+    "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/dining/"
+  ],
+  "retrieved_at": "2026-10-26T04:12:52.000Z",
+  "method": "Public official-page text and search-index results retrieved through the built-in search service. No paid API, custom crawler, login, screenshots, or hotel photographs used.",
+  "full_html_retained": false,
+  "screenshot_taken": false,
+  "evidence_sections": [
+    {
+      "field": "overview",
+      "section": "Introduction and Directions"
+    },
+    {
+      "field": "rooms",
+      "section": "Rooms and At a Glance"
+    },
+    {
+      "field": "facilities",
+      "section": "At a Glance Wi-Fi and Parking"
+    },
+    {
+      "field": "highlights",
+      "section": "Rooms"
+    },
+    {
+      "field": "address",
+      "section": "Address"
+    },
+    {
+      "field": "access",
+      "section": "Access between boat waiting room and Accommodation"
+    },
+    {
+      "field": "international_traveler_notes",
+      "section": "Arrival by train and boat waiting area instructions"
+    },
+    {
+      "field": "dining",
+      "section": "In-Room Dining Japanese Breakfast"
+    }
+  ],
+  "copyright_policy": "Original factual summaries only; no copied photos, reviews or full pages."
+}

@@ -1,0 +1,117 @@
+{
+  "id": "hoshinoya-taketomi",
+  "research_id": "hoshinoya-taketomi",
+  "mode": "live",
+  "review_status": "approved",
+  "name": "HOSHINOYA Taketomi Island",
+  "region": "Okinawa",
+  "prefecture": "Okinawa",
+  "type": "Island resort",
+  "tags": [
+    "Island villas",
+    "Pool",
+    "Ferry journey"
+  ],
+  "intro": "Villas shaped by Taketomi Island's architectural traditions, reached by ferry from Ishigaki.",
+  "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/",
+  "address": "1955 Taketomi, Taketomi-cho, Yaeyama-gun, Okinawa 907-1101, Japan",
+  "facts": [
+    {
+      "field": "overview",
+      "value": "An island resort with villas designed around local architectural guidelines.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Rooms"
+    },
+    {
+      "field": "address",
+      "value": "1955 Taketomi, Taketomi-cho, Yaeyama-gun, Okinawa 907-1101, Japan",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/access/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Address"
+    },
+    {
+      "field": "access",
+      "value": "Reach Ishigaki Port from Ishigaki Airport, then take a ferry to Taketomi and the hotel shuttle.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/access/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Steps 1-3"
+    },
+    {
+      "field": "rooms",
+      "value": "Villas feature low stone fences, coral-sand yards and living areas.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Rooms"
+    },
+    {
+      "field": "dining",
+      "value": "Island Terroir is a French dinner drawing on Yaeyama ingredients; advance reservation is required.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/dining/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Island Terroir"
+    },
+    {
+      "field": "facilities",
+      "value": "The overview explicitly lists a pool, restaurant and spa/massage facilities.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "At a Glance named facility counts"
+    },
+    {
+      "field": "highlights",
+      "value": "Architecture references the island's built heritage.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Rooms"
+    },
+    {
+      "field": "international_traveler_notes",
+      "value": "Ferry operations depend on conditions; consult ferry operators' updates before travel.",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/access/",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Ferry conditions advisory"
+    }
+  ],
+  "unverified_fields": [
+    "onsen",
+    "english_speaking_staff",
+    "step_free_access",
+    "meal_inclusions",
+    "private_pool"
+  ],
+  "editorial_notes": [
+    "Generic Facilities navigation includes labels that are not confirmed amenities. Do not infer an onsen from it.",
+    "Shuttle and ferry durations are approximate, not a current timetable."
+  ],
+  "updated_at": "2026-10-26T04:12:52.000Z",
+  "image": null,
+  "generation": {
+    "method": "Codex editorial synthesis from recorded official facts; no paid OpenAI API request",
+    "generated_at": "2026-10-26T04:17:11.224Z"
+  }
+}

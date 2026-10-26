@@ -4,3 +4,4 @@
 {"at":"2026-10-26T02:07:47.580Z","step":"discover","seed":42,"count":5}
 {"at":"2026-10-26T02:07:47.679Z","step":"collect","mode":"demo","rows":35}
 {"at":"2026-10-26T02:07:47.749Z","step":"generate","status":"draft"}
+{"at":"2026-10-26T04:17:11.301Z","step":"curated_live_research","count":5,"status":"draft","paid_api_requests":0,"search_checks":35}

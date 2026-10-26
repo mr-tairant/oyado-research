@@ -1,0 +1,41 @@
+name: Publish approved OYADO release
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: 'Type PUBLISH after approving the five current articles'
+        required: true
+        type: string
+permissions:
+  contents: read
+  deployments: write
+concurrency:
+  group: oyado-production
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.event.inputs.confirmation == 'PUBLISH' && github.ref == 'refs/heads/main'
+    environment: production
+    runs-on: ubuntu-latest
+    env:
+      PUBLICATION_MODE: production
+      SITE_URL: https://oyado-journal.pages.dev
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run typecheck
+      - run: npm run build:production
+      - name: Check static production output
+        run: node scripts/check-output.mjs dist production
+      - name: Publish approved build
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=oyado-journal --branch=main
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

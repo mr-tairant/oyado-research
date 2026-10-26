@@ -1,0 +1,50 @@
+{
+  "source_urls": [
+    "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/",
+    "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/access/",
+    "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/dining/"
+  ],
+  "retrieved_at": "2026-10-26T04:12:52.000Z",
+  "method": "Public official-page text and search-index results retrieved through the built-in search service. No paid API, custom crawler, login, screenshots, or hotel photographs used.",
+  "full_html_retained": false,
+  "screenshot_taken": false,
+  "evidence_sections": [
+    {
+      "field": "overview",
+      "section": "Rooms and Directions"
+    },
+    {
+      "field": "rooms",
+      "section": "Mizunami and Yamaroji"
+    },
+    {
+      "field": "onsen",
+      "section": "At a Glance Onsen count"
+    },
+    {
+      "field": "facilities",
+      "section": "At a Glance Wi-Fi"
+    },
+    {
+      "field": "highlights",
+      "section": "Rooms"
+    },
+    {
+      "field": "address",
+      "section": "Address"
+    },
+    {
+      "field": "access",
+      "section": "Arrival by train"
+    },
+    {
+      "field": "international_traveler_notes",
+      "section": "Free Shuttle; compared with overview Shuttle service"
+    },
+    {
+      "field": "dining",
+      "section": "In-Room Dining and Breakfast"
+    }
+  ],
+  "copyright_policy": "Original factual summaries only; no copied photos, reviews or full pages."
+}

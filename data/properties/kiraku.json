@@ -1,0 +1,128 @@
+{
+  "id": "kiraku",
+  "research_id": "kiraku",
+  "mode": "live",
+  "review_status": "approved",
+  "name": "KIRAKU ONSEN LIVING",
+  "region": "Tohoku",
+  "prefecture": "Yamagata",
+  "type": "Onsen inn",
+  "tags": [
+    "Onsen",
+    "Zao",
+    "Renewal planned"
+  ],
+  "intro": "A Zao Onsen inn with indoor and outdoor baths, announcing a transition to new accommodation from January 2027.",
+  "official_url": "https://www.zao-kiraku.co.jp/en",
+  "address": "935-25 Zao Onsen, Yamagata City, Yamagata 990-2301, Japan",
+  "facts": [
+    {
+      "field": "overview",
+      "value": "A lodging property in Zao Onsen with indoor and outdoor hot-spring baths.",
+      "source_url": "https://www.zao-kiraku.co.jp/en",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Onsen and Access"
+    },
+    {
+      "field": "address",
+      "value": "935-25 Zao Onsen, Yamagata City, Yamagata 990-2301, Japan",
+      "source_url": "https://www.zao-kiraku.co.jp/en",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Access"
+    },
+    {
+      "field": "access",
+      "value": "The official guide lists about 45 minutes by bus from JR Yamagata Station, then about seven minutes on foot from Zao Onsen Bus Terminal.",
+      "source_url": "https://www.zao-kiraku.co.jp/en",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Access Train & bus"
+    },
+    {
+      "field": "rooms",
+      "value": "The website distinguishes rooms for stays through October 2026 from new rooms for stays beginning 1 January 2027.",
+      "source_url": "https://www.zao-kiraku.co.jp/en",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Renewal and Rooms"
+    },
+    {
+      "field": "dining",
+      "value": "The current Dining section says meals are not served. Ground-floor dining and cafe/bar spaces are announced as future plans.",
+      "source_url": "https://www.zao-kiraku.co.jp/en",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Dining and Renewal"
+    },
+    {
+      "field": "onsen",
+      "value": "Indoor and outdoor hot-spring baths are described.",
+      "source_url": "https://www.zao-kiraku.co.jp/en",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Onsen"
+    },
+    {
+      "field": "facilities",
+      "value": "Free parking is listed in the official access guide.",
+      "source_url": "https://www.zao-kiraku.co.jp/en",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Access By car"
+    },
+    {
+      "field": "highlights",
+      "value": "The property announces new room types for stays from 1 January 2027.",
+      "source_url": "https://www.zao-kiraku.co.jp/en",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "The new rooms"
+    },
+    {
+      "field": "international_traveler_notes",
+      "value": "Room features and dining arrangements need checking for the actual travel dates during the renewal transition.",
+      "source_url": "https://www.zao-kiraku.co.jp/en",
+      "source_name": "Official website",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "evidence_section": "Renewal and dated Rooms sections"
+    }
+  ],
+  "unverified_fields": [
+    "november_december_operation",
+    "dining_opening_date",
+    "english_speaking_staff",
+    "tattoo_policy",
+    "step_free_access"
+  ],
+  "editorial_notes": [
+    "Time-sensitive: checked 26 October 2026. Do not describe proposed 2027 kitchens, laundry or dining as currently available.",
+    "Do not substitute Kiraku Obi in Miyazaki or Ryokan Kiraku in Oita for this Yamagata property.",
+    "Booking.com blocks body retrieval; official outbound link confirms URL identity only."
+  ],
+  "updated_at": "2026-10-26T04:12:52.000Z",
+  "image": null,
+  "generation": {
+    "method": "Codex editorial synthesis from recorded official facts; no paid OpenAI API request",
+    "generated_at": "2026-10-26T04:17:11.236Z"
+  }
+}

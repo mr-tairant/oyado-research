@@ -1,0 +1,81 @@
+{
+  "property_id": "kiraku",
+  "identity_checks": {
+    "name": false,
+    "address": false,
+    "official_cross_reference": false
+  },
+  "entries": [
+    {
+      "source_name": "official",
+      "query": "KIRAKU ONSEN LIVING Yamagata Zao Onsen, Yamagata City official",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.675Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "research_lead",
+      "results": [],
+      "candidate_url": "https://www.zao-kiraku.co.jp/en"
+    },
+    {
+      "source_name": "Rakuten Travel",
+      "query": "KIRAKU ONSEN LIVING Yamagata Zao Onsen, Yamagata City site:travel.rakuten.co.jp",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.675Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Jalan",
+      "query": "KIRAKU ONSEN LIVING Yamagata Zao Onsen, Yamagata City site:jalan.net",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.675Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Ikyu",
+      "query": "KIRAKU ONSEN LIVING Yamagata Zao Onsen, Yamagata City site:ikyu.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.675Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Booking.com",
+      "query": "KIRAKU ONSEN LIVING Yamagata Zao Onsen, Yamagata City site:booking.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.675Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Agoda",
+      "query": "KIRAKU ONSEN LIVING Yamagata Zao Onsen, Yamagata City site:agoda.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.675Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Expedia",
+      "query": "KIRAKU ONSEN LIVING Yamagata Zao Onsen, Yamagata City site:expedia.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.675Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    }
+  ]
+}

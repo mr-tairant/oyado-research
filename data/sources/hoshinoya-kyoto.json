@@ -1,81 +1,176 @@
 {
   "property_id": "hoshinoya-kyoto",
+  "researched_at": "2026-10-26T04:12:52.000Z",
   "identity_checks": {
-    "name": false,
-    "address": false,
-    "official_cross_reference": false
+    "name": true,
+    "address": true,
+    "official_cross_reference": true
   },
+  "identity_evidence": {
+    "name": "HOSHINOYA Kyoto",
+    "address": "11-2 Arashiyama Genrokuzan-cho, Nishikyo-ku, Kyoto 616-0007, Japan",
+    "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/",
+    "checked_by": "Codex (source comparison; publication requires human approval)"
+  },
+  "editorial_notes": [
+    "Generic Facilities navigation is not evidence of a pool or onsen.",
+    "Do not publish cached OTA child policies without current official confirmation."
+  ],
   "entries": [
     {
       "source_name": "official",
-      "query": "HOSHINOYA Kyoto Kyoto Arashiyama, Kyoto official",
-      "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.676Z",
-      "confidence": 0,
-      "verification_status": "unverified",
-      "status": "research_lead",
-      "results": [],
-      "candidate_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/"
+      "query": null,
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/",
+      "candidate_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "status": "official_text_checked",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "Property name and address match the saved candidate.",
+      "domain_filters": []
     },
     {
       "source_name": "Rakuten Travel",
-      "query": "HOSHINOYA Kyoto Kyoto Arashiyama, Kyoto site:travel.rakuten.co.jp",
+      "query": "星のや京都 嵐山",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.676Z",
-      "confidence": 0,
+      "candidate_url": "https://travel.rakuten.co.jp/HOTEL/172992/THEME/1/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "travel.rakuten.co.jp",
+        "hotel.travel.rakuten.co.jp"
+      ]
     },
     {
       "source_name": "Jalan",
-      "query": "HOSHINOYA Kyoto Kyoto Arashiyama, Kyoto site:jalan.net",
+      "query": "星のや京都",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.676Z",
+      "candidate_url": null,
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
       "confidence": 0,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "search_completed_not_confirmed",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "jalan.net"
+      ]
     },
     {
       "source_name": "Ikyu",
-      "query": "HOSHINOYA Kyoto Kyoto Arashiyama, Kyoto site:ikyu.com",
+      "query": "星のや京都",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.676Z",
-      "confidence": 0,
+      "candidate_url": "https://www.ikyu.com/concierge/tag/00001576",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "editorial_page_only",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "ikyu.com"
+      ]
     },
     {
       "source_name": "Booking.com",
-      "query": "HOSHINOYA Kyoto Kyoto Arashiyama, Kyoto site:booking.com",
+      "query": "HOSHINOYA Kyoto",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.676Z",
+      "candidate_url": null,
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
       "confidence": 0,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "search_completed_not_confirmed",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "booking.com"
+      ]
     },
     {
       "source_name": "Agoda",
-      "query": "HOSHINOYA Kyoto Kyoto Arashiyama, Kyoto site:agoda.com",
+      "query": "HOSHINOYA Kyoto",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.676Z",
-      "confidence": 0,
+      "candidate_url": "https://www.agoda.com/hoshinoya-kyoto-h80060022/hotel/kyoto-jp.html",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "agoda.com"
+      ]
     },
     {
       "source_name": "Expedia",
-      "query": "HOSHINOYA Kyoto Kyoto Arashiyama, Kyoto site:expedia.com",
+      "query": "HOSHINOYA Kyoto",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.676Z",
+      "candidate_url": null,
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
       "confidence": 0,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "search_completed_not_confirmed",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "expedia.com"
+      ]
+    },
+    {
+      "source_name": "Official website",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/access/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "status": "official_text_checked",
+      "verification_method": "Published name, address and property-specific official page cross-checked by Codex; human article approval pending",
+      "access_method": "built_in_search_service_public_text",
+      "automation_permission": "not_granted",
+      "screenshot_permission": "not_granted",
+      "evidence": [
+        {
+          "field": "address",
+          "section": "Address"
+        },
+        {
+          "field": "access",
+          "section": "Access between boat waiting room and Accommodation"
+        },
+        {
+          "field": "international_traveler_notes",
+          "section": "Arrival by train and boat waiting area instructions"
+        }
+      ]
+    },
+    {
+      "source_name": "Official website",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/dining/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "status": "official_text_checked",
+      "verification_method": "Published name, address and property-specific official page cross-checked by Codex; human article approval pending",
+      "access_method": "built_in_search_service_public_text",
+      "automation_permission": "not_granted",
+      "screenshot_permission": "not_granted",
+      "evidence": [
+        {
+          "field": "dining",
+          "section": "In-Room Dining Japanese Breakfast"
+        }
+      ]
     }
   ]
 }

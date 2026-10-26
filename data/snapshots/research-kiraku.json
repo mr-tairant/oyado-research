@@ -1,0 +1,48 @@
+{
+  "source_urls": [
+    "https://www.zao-kiraku.co.jp/en"
+  ],
+  "retrieved_at": "2026-10-26T04:12:52.000Z",
+  "method": "Public official-page text and search-index results retrieved through the built-in search service. No paid API, custom crawler, login, screenshots, or hotel photographs used.",
+  "full_html_retained": false,
+  "screenshot_taken": false,
+  "evidence_sections": [
+    {
+      "field": "overview",
+      "section": "Onsen and Access"
+    },
+    {
+      "field": "address",
+      "section": "Access"
+    },
+    {
+      "field": "access",
+      "section": "Access Train & bus"
+    },
+    {
+      "field": "rooms",
+      "section": "Renewal and Rooms"
+    },
+    {
+      "field": "dining",
+      "section": "Dining and Renewal"
+    },
+    {
+      "field": "onsen",
+      "section": "Onsen"
+    },
+    {
+      "field": "facilities",
+      "section": "Access By car"
+    },
+    {
+      "field": "highlights",
+      "section": "The new rooms"
+    },
+    {
+      "field": "international_traveler_notes",
+      "section": "Renewal and dated Rooms sections"
+    }
+  ],
+  "copyright_policy": "Original factual summaries only; no copied photos, reviews or full pages."
+}

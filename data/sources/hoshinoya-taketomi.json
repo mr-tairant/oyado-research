@@ -1,81 +1,176 @@
 {
   "property_id": "hoshinoya-taketomi",
+  "researched_at": "2026-10-26T04:12:52.000Z",
   "identity_checks": {
-    "name": false,
-    "address": false,
-    "official_cross_reference": false
+    "name": true,
+    "address": true,
+    "official_cross_reference": true
   },
+  "identity_evidence": {
+    "name": "HOSHINOYA Taketomi Island",
+    "address": "1955 Taketomi, Taketomi-cho, Yaeyama-gun, Okinawa 907-1101, Japan",
+    "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/",
+    "checked_by": "Codex (source comparison; publication requires human approval)"
+  },
+  "editorial_notes": [
+    "Generic Facilities navigation includes labels that are not confirmed amenities. Do not infer an onsen from it.",
+    "Shuttle and ferry durations are approximate, not a current timetable."
+  ],
   "entries": [
     {
       "source_name": "official",
-      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama official",
-      "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.669Z",
-      "confidence": 0,
-      "verification_status": "unverified",
-      "status": "research_lead",
-      "results": [],
-      "candidate_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/contact/"
+      "query": null,
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/",
+      "candidate_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "status": "official_text_checked",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "Property name and address match the saved candidate.",
+      "domain_filters": []
     },
     {
       "source_name": "Rakuten Travel",
-      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:travel.rakuten.co.jp",
+      "query": "星のや竹富島 1955",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.669Z",
-      "confidence": 0,
+      "candidate_url": "https://travel.rakuten.co.jp/mytrip/howto/hoshinoya-taketomijima-guide",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "editorial_page_only",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "travel.rakuten.co.jp",
+        "hotel.travel.rakuten.co.jp"
+      ]
     },
     {
       "source_name": "Jalan",
-      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:jalan.net",
+      "query": "星のや竹富島",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.669Z",
+      "candidate_url": null,
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
       "confidence": 0,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "search_completed_not_confirmed",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "jalan.net"
+      ]
     },
     {
       "source_name": "Ikyu",
-      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:ikyu.com",
+      "query": "星のや竹富島",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.669Z",
-      "confidence": 0,
+      "candidate_url": "https://www.ikyu.com/00003309/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "ikyu.com"
+      ]
     },
     {
       "source_name": "Booking.com",
-      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:booking.com",
+      "query": "HOSHINOYA Taketomi Island",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.669Z",
+      "candidate_url": null,
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
       "confidence": 0,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "search_completed_not_confirmed",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "booking.com"
+      ]
     },
     {
       "source_name": "Agoda",
-      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:agoda.com",
+      "query": "HOSHINOYA Taketomi Island",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.669Z",
-      "confidence": 0,
+      "candidate_url": "https://www.agoda.com/hoshinoya-taketomi-island/hotel/taketomi-jp.html",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.5,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "candidate_requires_identity_check",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "agoda.com"
+      ]
     },
     {
       "source_name": "Expedia",
-      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:expedia.com",
+      "query": "HOSHINOYA Taketomi Island",
       "source_url": null,
-      "retrieved_at": "2026-10-26T02:07:47.669Z",
+      "candidate_url": null,
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
       "confidence": 0,
       "verification_status": "unverified",
-      "status": "skipped_no_key",
-      "results": []
+      "status": "search_completed_not_confirmed",
+      "search_provider": "built_in_search_service",
+      "body_collection": "not_automatically_scraped",
+      "evidence": "A search result is a lead; not accepted as a verified listing.",
+      "domain_filters": [
+        "expedia.com"
+      ]
+    },
+    {
+      "source_name": "Official website",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/access/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "status": "official_text_checked",
+      "verification_method": "Published name, address and property-specific official page cross-checked by Codex; human article approval pending",
+      "access_method": "built_in_search_service_public_text",
+      "automation_permission": "not_granted",
+      "screenshot_permission": "not_granted",
+      "evidence": [
+        {
+          "field": "address",
+          "section": "Address"
+        },
+        {
+          "field": "access",
+          "section": "Steps 1-3"
+        },
+        {
+          "field": "international_traveler_notes",
+          "section": "Ferry conditions advisory"
+        }
+      ]
+    },
+    {
+      "source_name": "Official website",
+      "source_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/dining/",
+      "retrieved_at": "2026-10-26T04:12:52.000Z",
+      "confidence": 0.95,
+      "verification_status": "verified",
+      "status": "official_text_checked",
+      "verification_method": "Published name, address and property-specific official page cross-checked by Codex; human article approval pending",
+      "access_method": "built_in_search_service_public_text",
+      "automation_permission": "not_granted",
+      "screenshot_permission": "not_granted",
+      "evidence": [
+        {
+          "field": "dining",
+          "section": "Island Terroir"
+        }
+      ]
     }
   ]
 }

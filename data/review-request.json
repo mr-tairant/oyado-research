@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-26T04:17:11.242Z",
+  "status": "approved",
+  "properties": [
+    {
+      "id": "yamatoya",
+      "article": "src/content/stays/yamatoya.md",
+      "property": "data/properties/yamatoya.json",
+      "sha256": "b4712fe7f7eb71f71af25c017e91676124a61e9934e3202b6cbf06f5ee089f32"
+    },
+    {
+      "id": "hoshinoya-taketomi",
+      "article": "src/content/stays/hoshinoya-taketomi.md",
+      "property": "data/properties/hoshinoya-taketomi.json",
+      "sha256": "77d33479d72b4935e278a7235c20a5f3dbdbde5c45a29436c6e7308cc43d3858"
+    },
+    {
+      "id": "hoshinoya-karuizawa",
+      "article": "src/content/stays/hoshinoya-karuizawa.md",
+      "property": "data/properties/hoshinoya-karuizawa.json",
+      "sha256": "ec4869e6202fa72d1c37997de54cecd39b14c594ebc009bb76eb71823b2b18b3"
+    },
+    {
+      "id": "kiraku",
+      "article": "src/content/stays/kiraku.md",
+      "property": "data/properties/kiraku.json",
+      "sha256": "be362ec6367833f6cd884548b31c242e3947cd9b75076ce3418924f7db4d2e49"
+    },
+    {
+      "id": "hoshinoya-kyoto",
+      "article": "src/content/stays/hoshinoya-kyoto.md",
+      "property": "data/properties/hoshinoya-kyoto.json",
+      "sha256": "6da56719b0808be0882e3e3d9396397ae103e81ffa361adb80a87ce497291651"
+    }
+  ],
+  "last_approval_at": "2026-10-26T04:26:04.494Z"
+}

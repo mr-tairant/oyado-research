@@ -1,0 +1,46 @@
+{
+  "source_urls": [
+    "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/",
+    "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/access/",
+    "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/dining/"
+  ],
+  "retrieved_at": "2026-10-26T04:12:52.000Z",
+  "method": "Public official-page text and search-index results retrieved through the built-in search service. No paid API, custom crawler, login, screenshots, or hotel photographs used.",
+  "full_html_retained": false,
+  "screenshot_taken": false,
+  "evidence_sections": [
+    {
+      "field": "overview",
+      "section": "Rooms"
+    },
+    {
+      "field": "rooms",
+      "section": "Rooms"
+    },
+    {
+      "field": "facilities",
+      "section": "At a Glance named facility counts"
+    },
+    {
+      "field": "highlights",
+      "section": "Rooms"
+    },
+    {
+      "field": "address",
+      "section": "Address"
+    },
+    {
+      "field": "access",
+      "section": "Steps 1-3"
+    },
+    {
+      "field": "international_traveler_notes",
+      "section": "Ferry conditions advisory"
+    },
+    {
+      "field": "dining",
+      "section": "Island Terroir"
+    }
+  ],
+  "copyright_policy": "Original factual summaries only; no copied photos, reviews or full pages."
+}

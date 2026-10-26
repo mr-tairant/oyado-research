@@ -1,5 +1,21 @@
 ---
-import Layout from '../../layouts/Layout.astro';import {stays,article,demo,regionSlug} from '../../lib/data';
-export function getStaticPaths(){return stays.map(p=>({params:{id:p.id},props:{p}}));}const {p}=Astro.props;const interview=article(p.id,'interviews');const schema=demo?null:{'@context':'https://schema.org','@type':'LodgingBusiness',name:p.name,url:new URL(`/stays/${p.id}/`,Astro.site).href};
+import Layout from '../../layouts/Layout.astro';import {stays,article,demo,review,publicBuild,regionSlug} from '../../lib/data';
+export function getStaticPaths(){return stays.map(p=>({params:{id:p.id},props:{p}}));}
+const {p}=Astro.props;const interview=article(p.id,'interviews');
+const schema=publicBuild?{'@context':'https://schema.org','@type':'LodgingBusiness',name:p.name,address:p.address,url:new URL(`/stays/${p.id}/`,Astro.site).href}:null;
+const sources=[...new Map(p.facts.filter(f=>f.verification_status==='verified').map(f=>[f.source_url,f])).values()];
+const practical=p.facts.filter(f=>['address','access'].includes(f.field)&&f.verification_status==='verified');
 ---
-<Layout title={`${p.name} — Stay Guide | OYADO`} description={p.intro} schema={schema}><section class="detail-head"><a class="eyebrow" href={`/regions/${regionSlug(p.region)}/`}>{p.region} / {p.type}</a><h1>{p.name}</h1><p class="deck">{p.intro}</p><div class="tags">{p.tags.map(t=><span>{t}</span>)}</div></section><div class="detail-art"><span>間</span><p>SPACE TO IMAGINE<br/>{demo?'FICTIONAL EDITORIAL SAMPLE':'OYADO JOURNAL'}</p></div><div class="article-layout"><aside><p class="eyebrow">IN THIS GUIDE</p><a href="#stay-guide">01 / Stay Guide</a>{interview&&<a href="#owner-interview">02 / Owner Interview</a>}<p>Last checked<br/><time datetime={p.updated_at}>{p.updated_at.slice(0,10)}</time></p><small>{demo?'Fictional sample · Draft':'Human-reviewed guide'}</small></aside><div><section id="stay-guide" class="prose"><p class="eyebrow">01 / STAY GUIDE</p><div set:html={article(p.id)}/></section>{interview&&<section id="owner-interview" class="prose"><p class="eyebrow">02 / OWNER INTERVIEW</p><div set:html={interview}/></section>}<section class="sources"><h2>Sources & editorial notes</h2>{demo?<p>This fictional sample contains no facts about a real property. Research candidates and unverified URLs are kept in internal data files, separate from this page.</p>:<ul>{p.facts.map(f=><li>{f.field}: {f.value} — <a href={f.source_url} rel="noopener noreferrer">{f.source_name}</a> (checked {f.retrieved_at.slice(0,10)})</li>)}</ul>}</section></div></div></Layout>
+<Layout title={`${p.name} — Stay Guide | OYADO`} description={p.intro} schema={schema}>
+  <section class="detail-head"><a class="eyebrow" href={`/regions/${regionSlug(p.region)}/`}>{p.region} / {p.type}</a><h1>{p.name}</h1><p class="deck">{p.intro}</p><div class="tags">{p.tags.map(t=><span>{t}</span>)}</div></section>
+  <div class="detail-art"><span aria-hidden="true">間</span><p>{demo?'SPACE TO IMAGINE':'A SENSE OF PLACE'}<br/>{demo?'FICTIONAL EDITORIAL SAMPLE':'ORIGINAL OYADO TYPOGRAPHY · NO PROPERTY PHOTOGRAPH'}</p></div>
+  <div class="article-layout">
+    <aside><p class="eyebrow">IN THIS GUIDE</p><a href="#stay-guide">01 / Stay Guide</a>{interview&&<a href="#owner-interview">02 / Owner Interview</a>}<p>Last checked<br/><time datetime={p.updated_at}>{p.updated_at.slice(0,10)}</time></p><small>{demo?'Fictional sample · Draft':review?'Draft · Awaiting human approval':'Human-reviewed guide'}</small></aside>
+    <div>
+      <section id="stay-guide" class="prose"><p class="eyebrow">01 / STAY GUIDE</p><div set:html={article(p.id)}/></section>
+      {interview&&<section id="owner-interview" class="prose"><p class="eyebrow">02 / OWNER INTERVIEW</p><div set:html={interview}/></section>}
+      {!demo&&<section class="sources"><h2>Plan your stay</h2><dl class="practical">{practical.map(f=><><dt>{f.field==='address'?'Address':'Access'}</dt><dd>{f.value}</dd></>)}</dl>{p.official_url&&<a class="text-link" href={p.official_url} rel="noopener noreferrer">Visit the official website ↗</a>}</section>}
+      <section class="sources"><h2>Sources & editorial notes</h2>{demo?<p>This fictional sample contains no facts about a real property. Research candidates and unverified URLs are kept in internal data files, separate from this page.</p>:<><p>An AI-assisted guide based on the property's published information. OYADO has not conducted an owner interview for this guide.</p><ul>{sources.map(f=><li><a href={f.source_url} rel="noopener noreferrer">{f.source_name}{f.source_url.endsWith('/access/')?' — Directions':f.source_url.endsWith('/dining/')?' — Dining':''}</a> · checked {f.retrieved_at.slice(0,10)}</li>)}</ul></>}</section>
+    </div>
+  </div>
+</Layout>

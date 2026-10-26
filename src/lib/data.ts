@@ -2,14 +2,19 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { marked, Renderer } from 'marked';
 export type Fact={field:string;value:string;source_url:string;source_name:string;retrieved_at:string;confidence:number;verification_status:string};
-export type Property={id:string;name:string;mode:string;review_status:string;region:string;prefecture:string;type:string;tags:string[];intro:string;updated_at:string;facts:Fact[]};
+export type Property={id:string;name:string;mode:string;review_status:string;region:string;prefecture:string;type:string;tags:string[];intro:string;updated_at:string;facts:Fact[];official_url?:string;address?:string};
 const all=Object.values(import.meta.glob('../../data/properties/*.json',{eager:true,import:'default'})) as Property[];
-export const demo=process.env.PUBLICATION_MODE!=='production';
-export const stays=all.filter(p=>demo?p.mode==='demo':p.mode==='live'&&p.review_status==='approved'&&p.facts.length>0&&p.facts.every(f=>f.verification_status==='verified'));
+export const mode=process.env.PUBLICATION_MODE||'demo';
+if(!['demo','review','production'].includes(mode))throw Error('Unknown publication mode');
+export const demo=mode==='demo';
+export const review=mode==='review';
+export const publicBuild=mode==='production';
+export const stays=all.filter(p=>demo?p.mode==='demo':p.mode==='live'&&(review||p.review_status==='approved')&&p.facts.length>0&&p.facts.every(f=>f.verification_status==='verified'));
 export const regions=[...new Set(stays.map(p=>p.region))];
 export const regionSlug=(r:string)=>r.toLowerCase().replaceAll(' ','-');
 // Article HTML is escaped first; generated or interview text cannot inject HTML.
 export function article(id:string,kind='stays') {
+ if(!/^[a-z0-9-]+$/.test(id)||!['stays','interviews'].includes(kind))throw Error('Invalid article path');
  const file=path.resolve(`src/content/${kind}/${id}.md`);if(!fs.existsSync(file))return null;
  const raw=fs.readFileSync(file,'utf8');
  if(kind==='interviews'&&(!/^review_status: approved$/m.test(raw)||!/^consent: granted$/m.test(raw)))return null;

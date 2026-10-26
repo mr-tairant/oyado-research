@@ -1,0 +1,463 @@
+{
+  "provider": "Built-in web search service (no user-paid API key)",
+  "retrieved_at": "2026-10-26T04:15:04.875Z",
+  "storage_policy": "Only result titles and query-free URLs retained; no OTA body, reviews, prices, photographs or full HTML copied.",
+  "batches": [
+    {
+      "batch": 0,
+      "results": [
+        {
+          "title": "道後温泉　大和屋本店 宿泊予約〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/HOTEL/13429/13429.html"
+        },
+        {
+          "title": "「島時間」に身を委ねて。星のや竹富島で暮らすように過ごす 〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/mytrip/howto/hoshinoya-taketomijima-guide"
+        },
+        {
+          "title": "日本酒飲み放題！駄菓子食べ放題！道後温泉の旅館「大和屋本店」 〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/mytrip/howto/dogo-yamatoya-guide"
+        },
+        {
+          "title": "蔵王温泉　ホテル喜らく 宿泊プラン一覧〖楽天トラベル〗",
+          "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/12535"
+        },
+        {
+          "title": "沖縄のラグジュアリーリゾート「星のや」2施設で“夏先取り”の限定プラン登場 〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/mytrip/news/2025-04-10"
+        },
+        {
+          "title": "道後温泉　大和屋本店 宿泊プラン一覧〖楽天トラベル〗",
+          "url": "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/13429"
+        },
+        {
+          "title": "道後温泉　大和屋本店 地図・アクセス〖楽天トラベル〗",
+          "url": "https://hotel.travel.rakuten.co.jp/hinfo/13429/hotelmap/"
+        },
+        {
+          "title": "花粉から自由になろう。冬～春の沖縄「避粉旅行」のすすめ 〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/mytrip/howto/okinawa-hifun"
+        },
+        {
+          "title": "道後温泉　大和屋本店 写真・動画〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/HOTEL/13429/gallery.html"
+        },
+        {
+          "title": "星のや軽井沢 食事〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/HOTEL/172989/THEME/2/"
+        },
+        {
+          "title": "蔵王温泉　ホテル喜らく 設備・アメニティ・基本情報〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/HOTEL/12535/12535_std.html"
+        },
+        {
+          "title": "道後温泉　大和屋本店　　〖楽天トラベル〗",
+          "url": "https://web.travel.rakuten.co.jp/portal/my/ry_kensaku_room.main"
+        },
+        {
+          "title": "浅草マップ楽天",
+          "url": "https://travel.rakuten.co.jp/bus/special/oedo/map.pdf"
+        },
+        {
+          "title": "キャンペ",
+          "url": "https://travel.rakuten.co.jp/movement/miyagi/201607/images/scratchcpn.pdf"
+        },
+        {
+          "title": "PowerPoint プレゼンテーション",
+          "url": "https://travel.rakuten.co.jp/movement/kumamoto/201501/pdf/store_list.pdf"
+        },
+        {
+          "title": "SWEETS & DRINK",
+          "url": "https://travel.rakuten.co.jp/movement/hokkaido/201812-3/pdf/2019_fuyunikoi_pamphlet.pdf"
+        }
+      ]
+    },
+    {
+      "batch": 1,
+      "results": [
+        {
+          "title": "道後温泉　大和屋本店 - 宿泊予約は＜じゃらんnet＞",
+          "url": "https://www.jalan.net/yad354082/"
+        },
+        {
+          "title": "大和屋別荘のよくあるお問合せ一覧 - 宿泊予約は＜じゃらんnet＞",
+          "url": "https://www.jalan.net/yad386998/qa/"
+        },
+        {
+          "title": "“ツウな京都の夏”をゆったり楽しむ、「星のや京都」極上一人旅プラン 〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/mytrip/howto/hoshinoya-kyoto-guide"
+        },
+        {
+          "title": "道後温泉　大和屋本店のよくあるお問合せ一覧 - 宿泊予約は＜じゃらんnet＞",
+          "url": "https://www.jalan.net/yad354082/qa/"
+        },
+        {
+          "title": "道後温泉　大和屋本店の料金一覧・宿泊プラン - 宿泊予約は＜じゃらんnet＞",
+          "url": "https://www.jalan.net/yad354082/plan/"
+        },
+        {
+          "title": "道後温泉　大和屋本店のクチコミ・評判一覧 - 宿泊予約は＜じゃらんnet＞",
+          "url": "https://www.jalan.net/yad354082/kuchikomi/"
+        },
+        {
+          "title": "星のや京都 宿泊予約〖楽天トラベル〗",
+          "url": "https://hotel.travel.rakuten.co.jp/hinfo/172992/"
+        },
+        {
+          "title": "星のや京都 客室〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/HOTEL/172992/THEME/1/"
+        },
+        {
+          "title": "“ツウな京都の夏”をゆったり楽しむ、「星のや京都」極上一人旅プラン 〖楽天トラベル〗",
+          "url": "https://travel.rakuten.co.jp/mytrip/howto/hoshinoya-kyoto-guide"
+        },
+        {
+          "title": "道後温泉　大和屋本店の部屋・客室 - 宿泊予約は＜じゃらんnet＞",
+          "url": "https://www.jalan.net/yad354082/room/"
+        },
+        {
+          "title": "立地が良いです/道後温泉　大和屋本店のクチコミ・評判 - 宿泊予約は＜じゃらんnet＞",
+          "url": "https://www.jalan.net/yad354082/kuchikomi/detail_14982896/"
+        },
+        {
+          "title": "じゃらんnet",
+          "url": "https://www.jalan.net/uw/uwp7800/uww7830.do"
+        },
+        {
+          "title": "提 クーポン提出先　住 住所　☎ 連絡先　休 定休日（不定休の場合は事前にご確認くだ",
+          "url": "https://www.jalan.net/dp/ana/brand/okanatsucupon16A/pdf/okinawa_cupon.pdf"
+        },
+        {
+          "title": "Acr67189270232008430480",
+          "url": "https://jrc.jalan.net/wp-content/uploads/terimakasih/terimakasih_vol55.pdf"
+        }
+      ]
+    },
+    {
+      "batch": 2,
+      "results": [
+        {
+          "title": "星のや竹富島 - 宿泊予約 - 一休.com",
+          "url": "https://www.ikyu.com/00003309/"
+        },
+        {
+          "title": "ホテル　喜らく - 宿泊予約は＜じゃらんnet＞",
+          "url": "https://www.jalan.net/yad325153/"
+        },
+        {
+          "title": "松山のホテル・旅館 - おすすめ宿 宿泊予約は一休.com",
+          "url": "https://www.ikyu.com/theme/a34088001/"
+        },
+        {
+          "title": "ホテル　喜らくのクチコミ・評判一覧 - 宿泊予約は＜じゃらんnet＞",
+          "url": "https://www.jalan.net/yad325153/kuchikomi/"
+        },
+        {
+          "title": "蔵王温泉の日帰り入浴9選！絶景の露天風呂や貸切風呂なども＜山形・2024＞ ｜じゃらんニュース",
+          "url": "https://www.jalan.net/news/article/245543/"
+        },
+        {
+          "title": "大和屋本店 - 宿泊予約 - 一休.com",
+          "url": "https://www.ikyu.com/00000663/"
+        },
+        {
+          "title": "星のや竹富島 - 60日前から1泊でのご予約開始（朝食付） - ズーキ - 一休.com",
+          "url": "https://www.ikyu.com/00003309/11574530/10277666/"
+        },
+        {
+          "title": "大和屋本店 - 〖人気No1！〗瀬戸内の旬の味覚に舌鼓〖夕食会席｜朝食ビュッフェ〗 - 〖禁煙〗スイート和室（13畳+7畳・78平米） - 一休.com",
+          "url": "https://www.ikyu.com/00000663/11348581/10182158/"
+        },
+        {
+          "title": "喜らくのクチコミ一覧 - じゃらんnet",
+          "url": "https://www.jalan.net/gourmet/grm_alikejpB001108614/kuchikomi/"
+        },
+        {
+          "title": "星のや竹富島 - クチコミ・評判 - 一休.com",
+          "url": "https://www.ikyu.com/00003309/review/"
+        },
+        {
+          "title": "大和屋本店 - クチコミ・評判 - 一休.com",
+          "url": "https://www.ikyu.com/00000663/review/"
+        },
+        {
+          "title": "〖喜らく寿司〗山形・蔵王・天童・上山・寿司 - じゃらんnet",
+          "url": "https://www.jalan.net/gourmet/grm_guide000000178599/"
+        },
+        {
+          "title": "untitled",
+          "url": "https://www.jalan.net/jalan/doc/news/button/0290691201/pdf_data/yamagata_map.pdf"
+        },
+        {
+          "title": "▲かつては日本酒の造り酒屋だった名残が残る仕込み貯蔵室（月山トラヤワイナリー）",
+          "url": "https://www.jalan.net/jalan/doc/news/button/0290691201/pdf_data/yamagata_wine.pdf"
+        }
+      ]
+    },
+    {
+      "batch": 3,
+      "results": [
+        {
+          "title": "大和屋本店（松山市）：（最新料金：2026年）",
+          "url": "https://www.booking.com/hotel/jp/yamatoya-honten-matsuyama.ja.html"
+        },
+        {
+          "title": "Yamatoya Honten, Matsuyama (cập nhật giá năm 2026)",
+          "url": "https://www.booking.com/hotel/jp/yamatoya-honten-matsuyama.vi.html"
+        },
+        {
+          "title": "The 10 best ryokans in Matsuyama, Japan | Booking.com",
+          "url": "https://www.booking.com/ryokans/city/jp/matsuyama.en-gb.html"
+        },
+        {
+          "title": "Yamatoya Honten, Matsuyama (updated prices 2026)",
+          "url": "https://www.booking.com/hotel/jp/yamatoya-honten-matsuyama.en-gb.html"
+        },
+        {
+          "title": "Yamatoya Honten, Matsuyama (updated prices 2027)",
+          "url": "https://www.booking.com/hotel/jp/yamatoya-honten-matsuyama.html"
+        },
+        {
+          "title": "星のや京都 | 一休コンシェルジュ",
+          "url": "https://www.ikyu.com/concierge/tag/00001576"
+        },
+        {
+          "title": "Yamatoya Honten Ryokan Osaka, Osaka (updated prices 2026)",
+          "url": "https://www.booking.com/hotel/jp/yamatoya-honten.html"
+        },
+        {
+          "title": "Yamatoya Honten Ryokan Osaka, Osaka (updated prices 2027)",
+          "url": "https://www.booking.com/hotel/jp/yamatoya-honten.html"
+        },
+        {
+          "title": "松山的大和屋本店（最新房價）",
+          "url": "https://www.booking.com/hotel/jp/yamatoya-honten-matsuyama.zh-tw.html"
+        },
+        {
+          "title": "Yamatoya Honten, Matsuyama (bijgewerkte prijzen 2027)",
+          "url": "https://www.booking.com/hotel/jp/yamatoya-honten-matsuyama.nl.html"
+        },
+        {
+          "title": "10 hotel 4 bintang terbaik di Matsuyama, Jepun | Booking.com",
+          "url": "https://www.booking.com/fourstars/city/jp/matsuyama.ms.html"
+        },
+        {
+          "title": "Les 10 Meilleurs Hôtels 4 Étoiles à Matsuyama, au Japon | Booking.com",
+          "url": "https://www.booking.com/fourstars/city/jp/matsuyama.fr.html"
+        },
+        {
+          "title": "一休ポイント・クーポン・PayPayマニュアル",
+          "url": "https://restaurant.ikyu.com/rsDownLoad/ownInfo/ikyu-point-manual.pdf"
+        }
+      ]
+    },
+    {
+      "batch": 4,
+      "results": [
+        {
+          "title": "ZAO SPA HOTEL Kiraku, Zaō Onsen (updated prices 2026)",
+          "url": "https://www.booking.com/hotel/jp/xi-raku.html"
+        },
+        {
+          "title": "The 10 best hotels near Zao Chuo Rope Way in Zaō Onsen, Japan",
+          "url": "https://www.booking.com/landmark/jp/zao-chuo-rope-way.html"
+        },
+        {
+          "title": "蔵王ロープウェイ（日本、蔵王温泉）近くの人気ホテル10軒",
+          "url": "https://www.booking.com/landmark/jp/zao-ropeway.ja.html"
+        },
+        {
+          "title": "Rezervujte hotely s vířivkami poblíž destinace Zao Ropeway v destinaci Zao Onsen, Japonsko | Booking.com",
+          "url": "https://www.booking.com/jacuzzi/landmark/jp/zao-ropeway.cs.html"
+        },
+        {
+          "title": "Prenota alberghi vicino a Zao Liza a Zaō Onsen, Giappone | Booking.com",
+          "url": "https://www.booking.com/alberghi/landmark/jp/zao-liza.it.html"
+        },
+        {
+          "title": "Забронируйте недорогие отели в городе Дзао-Онсэн (рядом находится Zao Ropeway), Япония | Booking.com",
+          "url": "https://www.booking.com/budget/landmark/jp/zao-ropeway.ru.html"
+        },
+        {
+          "title": "預訂日本藏王溫泉藏宝索道附近的住宿｜Booking.com",
+          "url": "https://www.booking.com/accommodation/landmark/jp/zao-ropeway.zh-tw.html"
+        },
+        {
+          "title": "蔵王温泉の人気ホテル｜蔵王温泉（日本）と周辺のホテル",
+          "url": "https://www.booking.com/region/jp/zao-hot-spring.ja.html"
+        },
+        {
+          "title": "Zao Hot Spring: geriausi viešbučiai – kur apsistoti netoli regiono Zao Hot Spring, Japonijoje",
+          "url": "https://www.booking.com/region/jp/zao-hot-spring.lt.html"
+        },
+        {
+          "title": "ZAO SPA HOTEL Kiraku（蔵王温泉）：（最新料金：2026年）",
+          "url": "https://www.booking.com/hotel/jp/xi-raku.ja.html"
+        },
+        {
+          "title": "Os 10 melhores hotéis de Zao Onsen, Japão (a partir de US$45)",
+          "url": "https://www.booking.com/city/jp/zaoonsen.ja.html"
+        },
+        {
+          "title": "蔵王温泉 林檎屋ZaoOnsen Ringoya, Yamagata (updated prices 2026)",
+          "url": "https://www.booking.com/hotel/jp/zang-wang-wen-quan-lin-qin-wu.html"
+        }
+      ]
+    },
+    {
+      "batch": 5,
+      "results": [
+        {
+          "title": "Yamatoya Honten (Dogo) Ryokan (Matsuyama) - Deals, Photos & Reviews",
+          "url": "https://www.agoda.com/yamatoya-honten-dogo-h10565536/hotel/matsuyama-jp.html"
+        },
+        {
+          "title": "HOSHINOYA Taketomi Island Hotel - Deals, Photos & Reviews",
+          "url": "https://www.agoda.com/hoshinoya-taketomi-island/hotel/taketomi-jp.html"
+        },
+        {
+          "title": "Agoda Official Site | Free Cancellation & Booking Deals | Over 2 Million Hotels",
+          "url": "https://www.agoda.com/flagship_hoshino"
+        },
+        {
+          "title": "Resor Tepi Pantai Mewah di Pulau Utama Okinawa: Panduan Utama Anda » Agoda: See The World For Less",
+          "url": "https://www.agoda.com/id-id/travel-guides/japan/okinawa/luxurious-beachfront-resorts-in-okinawa-main-island-your-ultimate-guide/"
+        },
+        {
+          "title": "Best Ehime Hotels | 10 Resorts & Places to Stay in Matsuyama & Imabari",
+          "url": "https://www.agoda.com/travel-guides/japan/ehime/best-ehime-hotels-resorts-places-to-stay-in-matsuyama-imabari/"
+        },
+        {
+          "title": "Zao Spa Hotel Kiraku Yamagata. Sista minuten-erbjudanden på Agoda.com",
+          "url": "https://www.agoda.com/sv-se/zao-spa-hotel-kiraku/hotel/sendai-jp.html"
+        },
+        {
+          "title": "星のや竹富島 (HOSHINOYA Taketomi Island)｜クチコミあり - 竹富",
+          "url": "https://www.agoda.com/ja-jp/hoshinoya-taketomi-island/hotel/taketomi-jp.html"
+        },
+        {
+          "title": "Hotels near Zao Onsen, Yamagata - BEST HOTEL RATES Near , Yamagata - Japan",
+          "url": "https://www.agoda.com/hotels-near-zao-onsen/attractions/yamagata-jp.html"
+        },
+        {
+          "title": "Hotels near Sonmin-Shokudo, Karuizawa - BEST HOTEL RATES Near , Karuizawa - Japan",
+          "url": "https://www.agoda.com/en-za/hotels-near-sonmin-shokudo/attractions/karuizawa-jp.html"
+        },
+        {
+          "title": "Dogo Onsen Yamatoya Honten, Matsuyama | 2026 Updated Prices, Deals",
+          "url": "https://www.agoda.com/dogo-onsen-yamatoya-honten_2/hotel/matsuyama-jp.html"
+        },
+        {
+          "title": "Best Ehime Onsens & Hot Springs Retreats | All-Inclusive Hotels & Resorts",
+          "url": "https://www.agoda.com/travel-guides/japan/ehime/best-ehime-onsens-hot-springs-retreats-all-inclusive-hotels-resorts/"
+        }
+      ]
+    },
+    {
+      "batch": 6,
+      "results": [
+        {
+          "title": "HOSHINOYA Karuizawa Reviews, Deals & Photos 2026 - Expedia",
+          "url": "https://www.expedia.com/Karuizawa-Hotels-HOSHINOYA-Karuizawa.h2824199.Hotel-Information"
+        },
+        {
+          "title": "Visit Dogo Hot Spring: 2026 Dogo Hot Spring, Matsuyama Travel Guide | Expedia",
+          "url": "https://www.expedia.com/Matsuyama-Dogo-Hot-Spring.dx553248633981691510"
+        },
+        {
+          "title": "HOSHINOYA Karuizawa Reviews, Deals & Photos 2026 - Expedia",
+          "url": "https://www.expedia.com/Karuizawa-Hotels-HOSHINOYA-Karuizawa.h2824199.Hotel-Information"
+        },
+        {
+          "title": "Yamatoya Honten in Matsuyama - Recent Reviews 2026 - Expedia",
+          "url": "https://www.expedia.com/Matsuyama-Hotels-Yamatoya-Honten.h16000964.Hotel-Information"
+        },
+        {
+          "title": "Visit Taketomi Island: Best of Taketomi Island Tourism | Expedia Travel Guide",
+          "url": "https://www.expedia.com/Taketomi-Island.dx553248634420453008"
+        },
+        {
+          "title": "Yamatoya Honten in Matsuyama - Recent Reviews 2026 - Expedia",
+          "url": "https://www.expedia.com/Matsuyama-Hotels-Yamatoya-Honten.h16000964.Hotel-Information"
+        },
+        {
+          "title": "HOSHINOYA Kyoto Hotel - Deals, Photos & Reviews",
+          "url": "https://www.agoda.com/hoshinoya-kyoto-h80060022/hotel/kyoto-jp.html"
+        },
+        {
+          "title": "Yamatoya Honten Reviews, Deals & Photos 2026 - Expedia",
+          "url": "https://www.expedia.com/Matsuyama-Hotels-Yamatoya-Honten.h16000964.Hotel-Information"
+        },
+        {
+          "title": "Yamatoya Honten: Comentarios, Precios y Fotos 2026 - Expedia",
+          "url": "https://www.expedia.com/es/Matsuyama-Hoteles-Yamatoya-Honten.h16000964.Informacion-Hotel"
+        },
+        {
+          "title": "The Best Hotels with Childcare in Karuizawa from $137 in 2026 | Expedia",
+          "url": "https://www.expedia.com/Karuizawa-Hotels-Hotels-With-Childcare.0-0-d6157006-tHotelswithChildcare.Travel-Guide-Filter-Hotels"
+        },
+        {
+          "title": "List of all Properties in Karuizawa | Expedia",
+          "url": "https://www.expedia.com/All-Karuizawa-Hotels.d6157006.Travel-Guide-City-All-Hotels"
+        },
+        {
+          "title": "Agoda Official Site | Free Cancellation & Booking Deals | Over 2 Million Hotels",
+          "url": "https://www.agoda.com/flagship_hoshino"
+        }
+      ]
+    },
+    {
+      "batch": 7,
+      "results": [
+        {
+          "title": "Zao International Hotel Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Yamagata-Hotels-Zao-International-Hotel.h17444767.Hotel-Information"
+        },
+        {
+          "title": "Kiraku Obi Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Nichinan-Hotels-Nazuna-Obi-Onsen-Resort.h17691706.Hotel-Information"
+        },
+        {
+          "title": "Ichiraku Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Tendo-Hotels-Ichiraku.h136014075.Hotel-Information"
+        },
+        {
+          "title": "KKR Zao Hakuginso Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Yamagata-Hotels-KKRZAOHAKUGINSOU.h124822322.Hotel-Information"
+        },
+        {
+          "title": "Zao Onsen Zao Shiki No Hotel Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Yamagata-Hotels-Zao-Onsen-Zao-Shiki-No-Hotel.h9622452.Hotel-Information"
+        },
+        {
+          "title": "Zao International Hotel Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Yamagata-Hotels-Zao-International-Hotel.h17444767.Hotel-Information"
+        },
+        {
+          "title": "Miharashinoyado Kokyo Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Yamagata-Hotels-Miharashinoyado-Kokyo.h31842277.Hotel-Information"
+        },
+        {
+          "title": "Top Zaoonsen Hotels | Expedia",
+          "url": "https://www.expedia.com/Zaoonsen-Yamagata-Hotels.0-n553248635976007284-0.Travel-Guide-Filter-Hotels"
+        },
+        {
+          "title": "Ichiraku tendo spa & brewery Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Tendo-Hotels-Ichiraku-Tendo-Spa-Brewery.h91524905.Hotel-Information"
+        },
+        {
+          "title": "Zao Onsen Zao Shiki No Hotel Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Yamagata-Hotels-Zao-Onsen-Zao-Shiki-No-Hotel.h17444751.Hotel-Information"
+        },
+        {
+          "title": "Ryokan Kiraku Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Oita-Hotels-Ryokan-Kiraku.h20147262.Hotel-Information"
+        },
+        {
+          "title": "Takamiya Rurikura Resort Reviews, Deals & Photos 2026 - Expedia.com",
+          "url": "https://www.expedia.com/Yamagata-Hotels-Takamiya-Rurikura-Resort.h16218869.Hotel-Information"
+        }
+      ]
+    }
+  ]
+}
