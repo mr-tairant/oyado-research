@@ -1,5 +1,19 @@
 # 検証記録 — 2026-10-26 JST
 
+## 最新: 実施設5件の公開完了
+
+- Astro 7.4.2 / Node 24。本番ビルドと型チェックに成功。型チェックはクリーン環境でも動くようastro syncを先行実行。
+- 公開承認、承認後改変検知、改行差、施設同一性、設定誤りを含む11テストに成功。
+- GitHub CI [40270475231](https://github.com/mr-tairant/oyado-research/actions/runs/40270475231) 成功。
+- Cloudflare PagesのGitHub連携によるデプロイ成功。公開URL: https://oyado-journal.pages.dev/。
+- 実施設5詳細を含む14ページと3アセットの公開HTTP検証に成功。canonical・構造化データ・sitemap・robots・OGP、デモの混入なしを確認。
+- ブラウザーで実施設一覧と検索を確認。公開用依存関係監査は0件。
+- 初回の有料API呼び出しは0件。検索機能と公式公開情報からCodexが記事を作成し、利用者が明示承認。Owner Interviewは未取材のため非表示。
+
+詳細は release-status.md と data/logs/live-verification.json を参照。
+
+## 履歴: 初期デモ検証
+
 - Node 24.22.1 / Astro 5.18.2。端末にnpmが無いため一時npm CLIから実行。
 - `npm ci`: 一時フォルダーで280パッケージのクリーンインストール成功。
 - `npm run build`: 公開検証ゲートを含め成功。14 HTMLページとrobots.txt / sitemap.xmlを静的生成。

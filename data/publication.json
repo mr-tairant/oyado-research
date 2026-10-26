@@ -1,0 +1,14 @@
+{
+  "site_url": "https://oyado-journal.pages.dev/",
+  "project_name": "oyado-journal",
+  "provider": "Cloudflare Pages",
+  "source_repository": "https://github.com/mr-tairant/oyado-research",
+  "production_branch": "main",
+  "deployment_method": "Cloudflare Pages GitHub integration",
+  "first_successful_deployment_id": "329527b9-ebd1-44a5-8a6e-78c8352003ab",
+  "first_published_commit": "fc84ae6797becb24ba46af69ff8abe03fff9e6be",
+  "verification_report": "data/logs/live-verification.json",
+  "ci_run_url": "https://github.com/mr-tairant/oyado-research/actions/runs/40270475231",
+  "article_approval_records": "data/reviews/",
+  "paid_api_requests_in_initial_release": 0
+}
