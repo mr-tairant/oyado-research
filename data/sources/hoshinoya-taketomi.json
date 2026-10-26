@@ -1,0 +1,81 @@
+{
+  "property_id": "hoshinoya-taketomi",
+  "identity_checks": {
+    "name": false,
+    "address": false,
+    "official_cross_reference": false
+  },
+  "entries": [
+    {
+      "source_name": "official",
+      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama official",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.669Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "research_lead",
+      "results": [],
+      "candidate_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/contact/"
+    },
+    {
+      "source_name": "Rakuten Travel",
+      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:travel.rakuten.co.jp",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.669Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Jalan",
+      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:jalan.net",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.669Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Ikyu",
+      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:ikyu.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.669Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Booking.com",
+      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:booking.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.669Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Agoda",
+      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:agoda.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.669Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Expedia",
+      "query": "HOSHINOYA Taketomi Island Okinawa Taketomi, Yaeyama site:expedia.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.669Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    }
+  ]
+}

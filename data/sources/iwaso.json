@@ -1,0 +1,81 @@
+{
+  "property_id": "iwaso",
+  "identity_checks": {
+    "name": false,
+    "address": false,
+    "official_cross_reference": false
+  },
+  "entries": [
+    {
+      "source_name": "official",
+      "query": "Iwaso Hiroshima Miyajima, Hatsukaichi official",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.189Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "research_lead",
+      "results": [],
+      "candidate_url": "https://www.iwaso.com/english?sp=true"
+    },
+    {
+      "source_name": "Rakuten Travel",
+      "query": "Iwaso Hiroshima Miyajima, Hatsukaichi site:travel.rakuten.co.jp",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.189Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Jalan",
+      "query": "Iwaso Hiroshima Miyajima, Hatsukaichi site:jalan.net",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.189Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Ikyu",
+      "query": "Iwaso Hiroshima Miyajima, Hatsukaichi site:ikyu.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.189Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Booking.com",
+      "query": "Iwaso Hiroshima Miyajima, Hatsukaichi site:booking.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.189Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Agoda",
+      "query": "Iwaso Hiroshima Miyajima, Hatsukaichi site:agoda.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.189Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Expedia",
+      "query": "Iwaso Hiroshima Miyajima, Hatsukaichi site:expedia.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.189Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    }
+  ]
+}

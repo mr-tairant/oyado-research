@@ -1,0 +1,29 @@
+{
+  "id": "demo-yamatoya",
+  "research_id": "yamatoya",
+  "mode": "demo",
+  "review_status": "draft",
+  "name": "Imaginary Stay 01",
+  "region": "Shikoku",
+  "prefecture": "Ehime",
+  "type": "Ryokan",
+  "tags": [
+    "Quiet escapes",
+    "Japanese style"
+  ],
+  "intro": "An imagined place to pause. This fictional editorial sample demonstrates our future stay guides; it does not describe an existing hotel.",
+  "facts": [],
+  "unverified_fields": [
+    "overview",
+    "address",
+    "access",
+    "rooms",
+    "dining",
+    "onsen",
+    "facilities",
+    "highlights",
+    "international_traveler_notes"
+  ],
+  "updated_at": "2026-10-26T02:07:47.669Z",
+  "image": null
+}

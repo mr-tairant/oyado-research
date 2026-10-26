@@ -1,0 +1,1 @@
+This desktop runtime provides pnpm instead of npm. Standard environments can run all documented npm commands directly. Local verification used a temporary npm CLI in the runtime cache, without changing the user's global installation. A clean npm ci was also verified in an ignored temporary project directory.

@@ -1,0 +1,6 @@
+{"at":"2026-10-26T01:51:32.109Z","step":"discover","seed":42,"count":5}
+{"at":"2026-10-26T01:51:32.198Z","step":"collect","mode":"demo","rows":35}
+{"at":"2026-10-26T01:51:32.274Z","step":"generate","status":"draft"}
+{"at":"2026-10-26T02:07:47.580Z","step":"discover","seed":42,"count":5}
+{"at":"2026-10-26T02:07:47.679Z","step":"collect","mode":"demo","rows":35}
+{"at":"2026-10-26T02:07:47.749Z","step":"generate","status":"draft"}

@@ -1,0 +1,99 @@
+{
+  "seed": 42,
+  "count": 5,
+  "drawn_at": "2026-10-26T01:51:32.102Z",
+  "algorithm": "LCG32 Fisher-Yates, region-stratified v1",
+  "pool_sha256": "c5efd81673710319865ae1595152f02c42b58c71c0f4d79ec22c324134d18ff5",
+  "pool": [
+    {
+      "id": "tsuruga",
+      "name": "Akan Yuku no Sato Tsuruga",
+      "region": "Hokkaido",
+      "prefecture": "Hokkaido",
+      "locality": "Lake Akan, Kushiro",
+      "official_url": "https://www.tsuruga.com/en/"
+    },
+    {
+      "id": "kiraku",
+      "name": "KIRAKU ONSEN LIVING",
+      "region": "Tohoku",
+      "prefecture": "Yamagata",
+      "locality": "Zao Onsen, Yamagata City",
+      "official_url": "https://www.zao-kiraku.co.jp/en"
+    },
+    {
+      "id": "hoshinoya-kyoto",
+      "name": "HOSHINOYA Kyoto",
+      "region": "Kansai",
+      "prefecture": "Kyoto",
+      "locality": "Arashiyama, Kyoto",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/"
+    },
+    {
+      "id": "nishimuraya",
+      "name": "Nishimuraya Honkan",
+      "region": "Kansai",
+      "prefecture": "Hyogo",
+      "locality": "Kinosaki Onsen, Toyooka",
+      "official_url": "https://www.nishimuraya.ne.jp/honkan/en/access/"
+    },
+    {
+      "id": "iwaso",
+      "name": "Iwaso",
+      "region": "Chugoku",
+      "prefecture": "Hiroshima",
+      "locality": "Miyajima, Hatsukaichi",
+      "official_url": "https://www.iwaso.com/english?sp=true"
+    },
+    {
+      "id": "ichinoi",
+      "name": "Ryokan Ichinoi",
+      "region": "Kyushu",
+      "prefecture": "Kumamoto",
+      "locality": "Kurokawa Onsen, Minamioguni",
+      "official_url": "https://www.ichinoi.jp/"
+    }
+  ],
+  "selected": [
+    {
+      "id": "nishimuraya",
+      "name": "Nishimuraya Honkan",
+      "region": "Kansai",
+      "prefecture": "Hyogo",
+      "locality": "Kinosaki Onsen, Toyooka",
+      "official_url": "https://www.nishimuraya.ne.jp/honkan/en/access/"
+    },
+    {
+      "id": "iwaso",
+      "name": "Iwaso",
+      "region": "Chugoku",
+      "prefecture": "Hiroshima",
+      "locality": "Miyajima, Hatsukaichi",
+      "official_url": "https://www.iwaso.com/english?sp=true"
+    },
+    {
+      "id": "ichinoi",
+      "name": "Ryokan Ichinoi",
+      "region": "Kyushu",
+      "prefecture": "Kumamoto",
+      "locality": "Kurokawa Onsen, Minamioguni",
+      "official_url": "https://www.ichinoi.jp/"
+    },
+    {
+      "id": "tsuruga",
+      "name": "Akan Yuku no Sato Tsuruga",
+      "region": "Hokkaido",
+      "prefecture": "Hokkaido",
+      "locality": "Lake Akan, Kushiro",
+      "official_url": "https://www.tsuruga.com/en/"
+    },
+    {
+      "id": "kiraku",
+      "name": "KIRAKU ONSEN LIVING",
+      "region": "Tohoku",
+      "prefecture": "Yamagata",
+      "locality": "Zao Onsen, Yamagata City",
+      "official_url": "https://www.zao-kiraku.co.jp/en"
+    }
+  ]
+}

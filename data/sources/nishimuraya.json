@@ -1,0 +1,81 @@
+{
+  "property_id": "nishimuraya",
+  "identity_checks": {
+    "name": false,
+    "address": false,
+    "official_cross_reference": false
+  },
+  "entries": [
+    {
+      "source_name": "official",
+      "query": "Nishimuraya Honkan Hyogo Kinosaki Onsen, Toyooka official",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.187Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "research_lead",
+      "results": [],
+      "candidate_url": "https://www.nishimuraya.ne.jp/honkan/en/access/"
+    },
+    {
+      "source_name": "Rakuten Travel",
+      "query": "Nishimuraya Honkan Hyogo Kinosaki Onsen, Toyooka site:travel.rakuten.co.jp",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.188Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Jalan",
+      "query": "Nishimuraya Honkan Hyogo Kinosaki Onsen, Toyooka site:jalan.net",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.188Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Ikyu",
+      "query": "Nishimuraya Honkan Hyogo Kinosaki Onsen, Toyooka site:ikyu.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.188Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Booking.com",
+      "query": "Nishimuraya Honkan Hyogo Kinosaki Onsen, Toyooka site:booking.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.188Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Agoda",
+      "query": "Nishimuraya Honkan Hyogo Kinosaki Onsen, Toyooka site:agoda.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.188Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Expedia",
+      "query": "Nishimuraya Honkan Hyogo Kinosaki Onsen, Toyooka site:expedia.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.188Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    }
+  ]
+}

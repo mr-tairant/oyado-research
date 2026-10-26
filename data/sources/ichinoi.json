@@ -1,0 +1,81 @@
+{
+  "property_id": "ichinoi",
+  "identity_checks": {
+    "name": false,
+    "address": false,
+    "official_cross_reference": false
+  },
+  "entries": [
+    {
+      "source_name": "official",
+      "query": "Ryokan Ichinoi Kumamoto Kurokawa Onsen, Minamioguni official",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.191Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "research_lead",
+      "results": [],
+      "candidate_url": "https://www.ichinoi.jp/"
+    },
+    {
+      "source_name": "Rakuten Travel",
+      "query": "Ryokan Ichinoi Kumamoto Kurokawa Onsen, Minamioguni site:travel.rakuten.co.jp",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.191Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Jalan",
+      "query": "Ryokan Ichinoi Kumamoto Kurokawa Onsen, Minamioguni site:jalan.net",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.191Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Ikyu",
+      "query": "Ryokan Ichinoi Kumamoto Kurokawa Onsen, Minamioguni site:ikyu.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.191Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Booking.com",
+      "query": "Ryokan Ichinoi Kumamoto Kurokawa Onsen, Minamioguni site:booking.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.191Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Agoda",
+      "query": "Ryokan Ichinoi Kumamoto Kurokawa Onsen, Minamioguni site:agoda.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.191Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Expedia",
+      "query": "Ryokan Ichinoi Kumamoto Kurokawa Onsen, Minamioguni site:expedia.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.191Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    }
+  ]
+}

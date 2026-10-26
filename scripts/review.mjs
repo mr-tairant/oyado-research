@@ -1,0 +1,10 @@
+import fs from 'node:fs';import crypto from 'node:crypto';
+const [id,reviewer]=process.argv.slice(2);
+if(!/^[a-z0-9-]+$/.test(id||'')||!reviewer)throw Error('Usage: node scripts/review.mjs PROPERTY_ID REVIEWER (after human review)');
+const file=`data/properties/${id}.json`,article=`src/content/stays/${id}.md`;
+const p=JSON.parse(fs.readFileSync(file,'utf8'));
+if(p.mode!=='live'||!p.facts.length||p.facts.some(f=>f.verification_status!=='verified'))throw Error('Approve only live guides with verified facts');
+p.review_status='approved';const text=fs.readFileSync(article,'utf8').replace(/^review_status: draft$/m,'review_status: approved');
+fs.writeFileSync(file,JSON.stringify(p,null,2)+'\n');fs.writeFileSync(article,text);
+fs.mkdirSync('data/reviews',{recursive:true});fs.writeFileSync(`data/reviews/${id}.json`,JSON.stringify({reviewer,reviewed_at:new Date().toISOString(),content_sha256:crypto.createHash('sha256').update(text).update(JSON.stringify(p)).digest('hex')},null,2)+'\n');
+console.log('Review recorded. Run npm run validate before committing.');

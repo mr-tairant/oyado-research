@@ -1,0 +1,81 @@
+{
+  "property_id": "tsuruga",
+  "identity_checks": {
+    "name": false,
+    "address": false,
+    "official_cross_reference": false
+  },
+  "entries": [
+    {
+      "source_name": "official",
+      "query": "Akan Yuku no Sato Tsuruga Hokkaido Lake Akan, Kushiro official",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.194Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "research_lead",
+      "results": [],
+      "candidate_url": "https://www.tsuruga.com/en/"
+    },
+    {
+      "source_name": "Rakuten Travel",
+      "query": "Akan Yuku no Sato Tsuruga Hokkaido Lake Akan, Kushiro site:travel.rakuten.co.jp",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.194Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Jalan",
+      "query": "Akan Yuku no Sato Tsuruga Hokkaido Lake Akan, Kushiro site:jalan.net",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.194Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Ikyu",
+      "query": "Akan Yuku no Sato Tsuruga Hokkaido Lake Akan, Kushiro site:ikyu.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.194Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Booking.com",
+      "query": "Akan Yuku no Sato Tsuruga Hokkaido Lake Akan, Kushiro site:booking.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.194Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Agoda",
+      "query": "Akan Yuku no Sato Tsuruga Hokkaido Lake Akan, Kushiro site:agoda.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.194Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Expedia",
+      "query": "Akan Yuku no Sato Tsuruga Hokkaido Lake Akan, Kushiro site:expedia.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T01:51:32.194Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    }
+  ]
+}

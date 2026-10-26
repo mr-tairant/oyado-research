@@ -1,0 +1,81 @@
+{
+  "property_id": "hoshinoya-karuizawa",
+  "identity_checks": {
+    "name": false,
+    "address": false,
+    "official_cross_reference": false
+  },
+  "entries": [
+    {
+      "source_name": "official",
+      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa official",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "research_lead",
+      "results": [],
+      "candidate_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/access/"
+    },
+    {
+      "source_name": "Rakuten Travel",
+      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:travel.rakuten.co.jp",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Jalan",
+      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:jalan.net",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Ikyu",
+      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:ikyu.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Booking.com",
+      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:booking.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Agoda",
+      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:agoda.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    },
+    {
+      "source_name": "Expedia",
+      "query": "HOSHINOYA Karuizawa Nagano Nagakura, Karuizawa site:expedia.com",
+      "source_url": null,
+      "retrieved_at": "2026-10-26T02:07:47.671Z",
+      "confidence": 0,
+      "verification_status": "unverified",
+      "status": "skipped_no_key",
+      "results": []
+    }
+  ]
+}

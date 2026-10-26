@@ -1,0 +1,29 @@
+{
+  "id": "demo-hoshinoya-kyoto",
+  "research_id": "hoshinoya-kyoto",
+  "mode": "demo",
+  "review_status": "draft",
+  "name": "Imaginary Stay 05",
+  "region": "Kansai",
+  "prefecture": "Kyoto",
+  "type": "Ryokan",
+  "tags": [
+    "Quiet escapes",
+    "Japanese style"
+  ],
+  "intro": "An imagined place to pause. This fictional editorial sample demonstrates our future stay guides; it does not describe an existing hotel.",
+  "facts": [],
+  "unverified_fields": [
+    "overview",
+    "address",
+    "access",
+    "rooms",
+    "dining",
+    "onsen",
+    "facilities",
+    "highlights",
+    "international_traveler_notes"
+  ],
+  "updated_at": "2026-10-26T02:07:47.677Z",
+  "image": null
+}

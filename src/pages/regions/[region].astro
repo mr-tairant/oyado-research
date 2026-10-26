@@ -1,0 +1,4 @@
+---
+import Layout from '../../layouts/Layout.astro';import Card from '../../components/Card.astro';import {regions,regionSlug,stays} from '../../lib/data';export function getStaticPaths(){return regions.map(r=>({params:{region:regionSlug(r)},props:{region:r}}));}const {region}=Astro.props;
+---
+<Layout title={`${region} stays — OYADO`}><section class="page-head"><p class="eyebrow">THE REGIONAL EDIT</p><h1>{region}</h1><p>A fictional preview of a more considered journey.</p></section><section class="collection"><div class="cards">{stays.filter(p=>p.region===region).map((p,i)=><Card stay={p} index={i}/>)}</div></section></Layout>

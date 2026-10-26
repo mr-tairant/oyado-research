@@ -1,0 +1,5 @@
+---
+import {regionSlug,type Property} from '../lib/data';
+const {stay:p,index=0}=Astro.props as {stay:Property,index?:number};
+---
+<article class="stay-card" data-name={p.name.toLowerCase()} data-region={p.region} data-type={p.type} data-tags={p.tags.join(' ').toLowerCase()}><a href={`/stays/${p.id}/`} class={`art art-${index%5}`} aria-label={`Read ${p.name}`}><span class="art-top">{p.region.toUpperCase()} / JAPAN</span><span class="art-kanji" aria-hidden="true">{['静','間','余','風','旅'][index%5]}</span><span class="art-bottom">{p.mode==='demo'?'FICTIONAL STAY':'STAY GUIDE'} · {String(index+1).padStart(2,'0')}<span>↗</span></span></a><div class="card-meta"><a href={`/regions/${regionSlug(p.region)}/`}>{p.region}</a><span>{p.type}</span></div><h3><a href={`/stays/${p.id}/`}>{p.name}</a></h3><p>{p.mode==='demo'?'A moment of stillness, an imagined journey.':p.intro}</p><div class="tags">{p.tags.map(t=><span>{t}</span>)}</div></article>

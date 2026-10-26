@@ -1,0 +1,131 @@
+{
+  "seed": 42,
+  "count": 5,
+  "drawn_at": "2026-10-26T02:07:47.577Z",
+  "algorithm": "LCG32 Fisher-Yates, five geographic bands v2",
+  "pool_sha256": "0755001fad8cbbe6eb8dcbaea29fcb13a854218fa94a23809b06556e46869984",
+  "pool": [
+    {
+      "id": "tsuruga",
+      "name": "Akan Yuku no Sato Tsuruga",
+      "region": "Hokkaido",
+      "prefecture": "Hokkaido",
+      "locality": "Lake Akan, Kushiro",
+      "official_url": "https://www.tsuruga.com/en/"
+    },
+    {
+      "id": "kiraku",
+      "name": "KIRAKU ONSEN LIVING",
+      "region": "Tohoku",
+      "prefecture": "Yamagata",
+      "locality": "Zao Onsen, Yamagata City",
+      "official_url": "https://www.zao-kiraku.co.jp/en"
+    },
+    {
+      "id": "hoshinoya-kyoto",
+      "name": "HOSHINOYA Kyoto",
+      "region": "Kansai",
+      "prefecture": "Kyoto",
+      "locality": "Arashiyama, Kyoto",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/"
+    },
+    {
+      "id": "nishimuraya",
+      "name": "Nishimuraya Honkan",
+      "region": "Kansai",
+      "prefecture": "Hyogo",
+      "locality": "Kinosaki Onsen, Toyooka",
+      "official_url": "https://www.nishimuraya.ne.jp/honkan/en/access/"
+    },
+    {
+      "id": "iwaso",
+      "name": "Iwaso",
+      "region": "Chugoku",
+      "prefecture": "Hiroshima",
+      "locality": "Miyajima, Hatsukaichi",
+      "official_url": "https://www.iwaso.com/english?sp=true"
+    },
+    {
+      "id": "ichinoi",
+      "name": "Ryokan Ichinoi",
+      "region": "Kyushu",
+      "prefecture": "Kumamoto",
+      "locality": "Kurokawa Onsen, Minamioguni",
+      "official_url": "https://www.ichinoi.jp/"
+    },
+    {
+      "id": "hoshinoya-tokyo",
+      "name": "HOSHINOYA Tokyo",
+      "region": "Kanto",
+      "prefecture": "Tokyo",
+      "locality": "Otemachi, Chiyoda",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyatokyo/"
+    },
+    {
+      "id": "hoshinoya-karuizawa",
+      "name": "HOSHINOYA Karuizawa",
+      "region": "Chubu",
+      "prefecture": "Nagano",
+      "locality": "Nagakura, Karuizawa",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/access/"
+    },
+    {
+      "id": "yamatoya",
+      "name": "Yamatoya Honten",
+      "region": "Shikoku",
+      "prefecture": "Ehime",
+      "locality": "Dogo Onsen, Matsuyama",
+      "official_url": "https://www.yamatoyahonten.com/en/"
+    },
+    {
+      "id": "hoshinoya-taketomi",
+      "name": "HOSHINOYA Taketomi Island",
+      "region": "Okinawa",
+      "prefecture": "Okinawa",
+      "locality": "Taketomi, Yaeyama",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/contact/"
+    }
+  ],
+  "selected": [
+    {
+      "id": "yamatoya",
+      "name": "Yamatoya Honten",
+      "region": "Shikoku",
+      "prefecture": "Ehime",
+      "locality": "Dogo Onsen, Matsuyama",
+      "official_url": "https://www.yamatoyahonten.com/en/"
+    },
+    {
+      "id": "hoshinoya-taketomi",
+      "name": "HOSHINOYA Taketomi Island",
+      "region": "Okinawa",
+      "prefecture": "Okinawa",
+      "locality": "Taketomi, Yaeyama",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyataketomijima/contact/"
+    },
+    {
+      "id": "hoshinoya-karuizawa",
+      "name": "HOSHINOYA Karuizawa",
+      "region": "Chubu",
+      "prefecture": "Nagano",
+      "locality": "Nagakura, Karuizawa",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakaruizawa/access/"
+    },
+    {
+      "id": "kiraku",
+      "name": "KIRAKU ONSEN LIVING",
+      "region": "Tohoku",
+      "prefecture": "Yamagata",
+      "locality": "Zao Onsen, Yamagata City",
+      "official_url": "https://www.zao-kiraku.co.jp/en"
+    },
+    {
+      "id": "hoshinoya-kyoto",
+      "name": "HOSHINOYA Kyoto",
+      "region": "Kansai",
+      "prefecture": "Kyoto",
+      "locality": "Arashiyama, Kyoto",
+      "official_url": "https://hoshinoresorts.com/en/hotels/hoshinoyakyoto/"
+    }
+  ]
+}
