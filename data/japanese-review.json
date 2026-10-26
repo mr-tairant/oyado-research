@@ -1,16 +1,23 @@
 {
   "review_status": "approved",
   "reviewer": "mr-tairant",
-  "approval_evidence": "User approved Japanese five articles, photography and updated publication in this chat: 日本語5記事・写真を承認し、更新公開する",
-  "prepared_at": "2026-10-26T05:05:09.797Z",
+  "approval_evidence": "Original approval of five Japanese articles and photography retained without content changes. On 2026-10-26 the user reviewed the redesigned Japanese UI and screenshots for 49fb31e, then said: 「うん、なんかいいね！これでコミットしてマージしてOK。」 and 「pushしてOK。」 after being informed that Japanese UI reapproval was required before publication. Scope: redesigned UI, shared components and styles; main push triggers Cloudflare Pages publication.",
+  "prepared_at": "2026-10-26T12:52:32.968Z",
   "hashes": {
     "src/lib/ja.ts": "9e31160ebfedf4392f7ab5ae0a54b41be9850e964fc604c0909951e499c039d2",
-    "src/pages/ja/[...page].astro": "0058c6cee6f7ccaef47ee795dbfd533864aa6ad5e6df65f96b325d2307a723be",
+    "src/pages/ja/[...page].astro": "aac36b0917520b2c44389814e0ef9dd40d8da2acda5a55d9b52727b542cd6525",
+    "src/components/Home.astro": "25a2b583619fd56fc03c96e1048b80295478c79ffbc1a96fa77598ecd9838092",
+    "src/components/Regions.astro": "6820532f70933479b7a75c148e312b597c6c583122e344d7c8ac28aae08adb01",
+    "src/components/Card.astro": "e4fe77248bf6226ccdaed75db9e2c317fe8d1c82ef23b4f91eb76c61e7e3c526",
+    "src/components/Photo.astro": "df7f4853a3474ccf9e5f9c13b45d9c6235e8dc650a7c449fe6910bf17afcbcd1",
+    "src/layouts/Layout.astro": "1cb1ee15cfb25aec6d10facc31b3f65533019964f66f473141f388d6ea1f5ae3",
+    "src/styles/global.css": "22cd388ce2db81426e3992f4ce4e9dbf2bf74aea90590a8f9bab7687bf44a33d",
+    "src/styles/editorial.css": "10debd25f7108d610f929e17044e7fda307c6d077c9504a167e3d4cc96958be8",
     "src/content/stays-ja/hoshinoya-karuizawa.md": "add70cf511bf82bc8ef71d48ed37991450a3c7d66860d804c6fb1884cbd9e659",
     "src/content/stays-ja/hoshinoya-kyoto.md": "9250921029d189fcf4f79366d8afd71477f3a403d818f75a6b45d95f73909697",
     "src/content/stays-ja/hoshinoya-taketomi.md": "57987a0418cc720ee6b5d5edff4e3acdda8493d0627af1e26250ea7879931ece",
     "src/content/stays-ja/kiraku.md": "e7ffaf0c8beb9831d68dfd9a836e1b7795719d6fdc8dba145e596131b448a99e",
     "src/content/stays-ja/yamatoya.md": "66dec212367d899f981bdba06be4eb9288c7ce5447b4892b397f60d8f7fa9cc4"
   },
-  "approved_at": "2026-10-26T05:06:16.093Z"
+  "approved_at": "2026-10-26T12:52:33.068Z"
 }
