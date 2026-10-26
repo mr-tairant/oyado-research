@@ -1,0 +1,37 @@
+[
+  {
+    "id": "hoshinoya-kyoto",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hoshinoya_Kyoto.jpg",
+    "retrieved_at": "2026-10-26T05:04:31.885Z",
+    "usage": "internal rights evidence only",
+    "path": "data/snapshots/private/hoshinoya-kyoto-source.png"
+  },
+  {
+    "id": "hoshinoya-taketomi",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hoshinoya_Okinawa.jpg",
+    "retrieved_at": "2026-10-26T05:04:34.246Z",
+    "usage": "internal rights evidence only",
+    "path": "data/snapshots/private/hoshinoya-taketomi-source.png"
+  },
+  {
+    "id": "hoshinoya-karuizawa",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kumoba-ike06s2048.jpg",
+    "retrieved_at": "2026-10-26T05:04:36.580Z",
+    "usage": "internal rights evidence only",
+    "path": "data/snapshots/private/hoshinoya-karuizawa-source.png"
+  },
+  {
+    "id": "kiraku",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zao_panorama.jpg",
+    "retrieved_at": "2026-10-26T05:04:39.006Z",
+    "usage": "internal rights evidence only",
+    "path": "data/snapshots/private/kiraku-source.png"
+  },
+  {
+    "id": "yamatoya",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dogo_Noh_01.jpg",
+    "retrieved_at": "2026-10-26T05:04:41.327Z",
+    "usage": "internal rights evidence only",
+    "path": "data/snapshots/private/yamatoya-source.png"
+  }
+]

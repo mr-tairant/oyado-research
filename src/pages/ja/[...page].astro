@@ -1,0 +1,40 @@
+---
+import {japaneseApproved} from '../../lib/translations';
+import Layout from '../../layouts/Layout.astro';
+import Card from '../../components/Card.astro';
+import Photo from '../../components/Photo.astro';
+import {article,regions,regionSlug,publicBuild,demo} from '../../lib/data';
+import {jaStays,regionNames,typeNames} from '../../lib/ja';
+export function getStaticPaths(){
+ if(demo||(publicBuild&&!japaneseApproved))return [];
+ return [{params:{page:undefined}},{params:{page:'stays'}},{params:{page:'about'}},{params:{page:'regions'}},...regions.map(r=>({params:{page:'regions/'+regionSlug(r)}})),...jaStays.map(p=>({params:{page:'stays/'+p.id}}))];
+}
+const page=Astro.params.page||'';
+const p=jaStays.find(p=>page==='stays/'+p.id);
+const region=regions.find(r=>page==='regions/'+regionSlug(r));
+const title=p?`${p.name} — 宿泊ガイド | OYADO`:page==='about'?'編集方針 | OYADO':page.startsWith('regions')?'地域から探す | OYADO':page==='stays'?'宿を探す | OYADO':'OYADO — 日本の宿を、もっと深く';
+const selected=region?jaStays.filter(p=>p.region===region):jaStays;
+const schema=publicBuild&&p?{'@context':'https://schema.org','@type':'LodgingBusiness',name:p.name,address:p.address,url:new URL(`/ja/stays/${p.id}/`,Astro.site).href}:null;
+const sources=p?[...new Map(p.facts.map(f=>[f.source_url,f])).values()]:[];
+---
+<Layout title={title} schema={schema} description={p?.intro||'日本各地の旅館やホテルを、出典とともに紹介する独立系宿泊メディア。'}>
+{p?<>
+ <section class="detail-head"><a class="eyebrow" href={`/ja/regions/${regionSlug(p.region)}/`}>{regionNames[p.region]} / {typeNames[p.type]||p.type}</a><h1>{p.name}</h1><p class="deck">{p.intro}</p></section>
+ <Photo id={p.id} ja/>
+ <div class="article-layout"><aside><p class="eyebrow">このガイドについて</p><a href="#stay-guide">宿泊ガイド</a><p>情報確認日<br/>{p.updated_at.slice(0,10)}</p><p>{japaneseApproved?'人による確認済み':'日本語版・確認用ドラフト'}</p></aside><div><section id="stay-guide" class="prose"><div set:html={article(p.id,'stays-ja')}/></section><section class="sources"><h2>出典・ご予約前に</h2><p>{japaneseApproved?'承認済みの英語記事と公式情報に基づく日本語ガイドです。':'承認済みの英語記事と公式情報に基づく日本語ドラフトです。'}編集部の実泊記ではありません。オーナーインタビューは未実施です。</p><ul>{sources.map(f=><li><a href={f.source_url}>公式サイト{f.source_url.endsWith('/access/')?'（アクセス）':f.source_url.endsWith('/dining/')?'（食事）':''}</a> · 確認日 {f.retrieved_at.slice(0,10)}</li>)}</ul><a class="text-link" href={p.official_url}>公式サイトを見る ↗</a></section></div></div>
+</>:page==='about'?<>
+ <section class="page-head"><p class="eyebrow">OYADO JOURNAL</p><h1>誠実な情報から、<br/><em>旅が始まる。</em></h1></section><article class="about prose"><h2>このメディアについて</h2><p>OYADOは、日本各地の旅館・ホテルを紹介する独立系メディアです。地域の偏りを抑えた候補抽選から5施設を選び、公式情報に基づく英語ガイドを制作しました。{japaneseApproved?'日本語版も人の確認を経て公開しています。':'日本語版は内容を確認いただくためのドラフトです。'}</p><h2>出典と確認日を残す</h2><p>情報ごとに出典URL、取得日、確度、確認状態を記録します。施設名と所在地が一致しないURLや、未確認の設備は確定情報として掲載しません。旅行前には宿へ最新情報をご確認ください。</p><h2>写真の扱い</h2><p>再利用ライセンスを確認できた写真を使用し、撮影者、出典、ライセンス、撮影年を表示します。周辺地域の写真は施設内の写真と区別します。過去の写真は現在の設備や催しを保証するものではありません。サイズ変更した写真には元と同じライセンスを適用します。</p><h2>人の声を創作しない</h2><p>実際の取材と同意、承認が揃うまでオーナーインタビューは表示しません。実泊経験や発言を創作しません。</p><h2>公開前に人が確認</h2><p>AIを用いた記事はドラフトから開始し、人の承認後に公開します。{japaneseApproved?'日本語版は翻訳と画面を一括で承認し、変更後は再確認します。':'日本語版は承認待ちのため、現在はローカルの確認用画面にのみ表示しています。'}</p></article>
+</>:page==='regions'?<>
+ <section class="page-head"><p class="eyebrow">地域から探す</p><h1>日本を、<em>ゆっくり。</em></h1><p>最初の5施設がある地域へ。</p></section><section class="region-band"><div>{regions.map(r=><a href={`/ja/regions/${regionSlug(r)}/`}>{regionNames[r]||r}<span>↗</span></a>)}</div></section>
+</>:page==='stays'||region?<>
+ <section class="page-head"><p class="eyebrow">OYADO COLLECTION</p><h1>{region?regionNames[region]:'次の滞在を探す。'}</h1><p>地域や宿の名前から、気になる一軒へ。</p></section><section class="collection"><form class="filters" role="search" onsubmit="return false"><label>宿の名前・特徴<input id="ja-query" type="search" placeholder="軽井沢、温泉、京都…"/></label><label>地域<select id="ja-region"><option value="">すべての地域</option>{regions.map(r=><option value={r}>{regionNames[r]||r}</option>)}</select></label></form><p id="ja-count" aria-live="polite">{selected.length}件の宿</p><div class="cards">{selected.map((p,i)=><Card stay={p} index={i} ja/>)}</div><p id="ja-empty" hidden>該当する宿がありません。検索条件を変えてください。</p></section>
+</>:<>
+ <section class="hero"><div><p class="eyebrow">THE JAPAN STAY JOURNAL / VOL. 01</p><h1>心に残る、<br/><em>宿の時間。</em></h1><p class="deck">予定を詰め込む旅から、<br/>一つの場所を味わう旅へ。</p><a class="text-link" href="/ja/stays/">宿のコレクションを見る ↗</a></div><Photo id="hoshinoya-kyoto" variant="hero" ja/></section><section class="intro"><p class="eyebrow">旅の余白を見つける</p><h2>泊まる場所から、<br/><em>旅が変わる。</em></h2><p>日本各地の旅館とホテルを、出典のある情報で紹介します。客室、食事、温泉、アクセス。自分に合う宿を探すための、小さな旅のジャーナルです。</p></section><section class="collection"><div class="section-heading"><div><p class="eyebrow">最初のコレクション</p><h2>ゆっくり過ごす、5つの宿。</h2></div></div><div class="cards">{jaStays.map((p,i)=><Card stay={p} index={i} ja/>)}</div></section>
+</>}
+</Layout>
+<script>
+const query=document.querySelector<HTMLInputElement>('#ja-query');
+const select=document.querySelector<HTMLSelectElement>('#ja-region');
+function filter(){if(!query||!select)return;let n=0;document.querySelectorAll<HTMLElement>('.stay-card').forEach(c=>{c.hidden=!((c.dataset.name+' '+c.dataset.tags+' '+c.dataset.region).toLowerCase().includes(query!.value.toLowerCase())&&(!select!.value||select!.value===c.dataset.region));if(!c.hidden)n++;});document.querySelector('#ja-count')!.textContent=`${n}件の宿`;(document.querySelector('#ja-empty') as HTMLElement).hidden=n>0;}
+query?.addEventListener('input',filter);select?.addEventListener('input',filter);
+</script>

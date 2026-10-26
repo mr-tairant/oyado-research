@@ -1,0 +1,122 @@
+{
+  "record": {
+    "id": "hoshinoya-taketomi",
+    "kind": "property",
+    "caption": "Village rooftops at HOSHINOYA Taketomi Island",
+    "caption_ja": "星のや竹富島の集落風景",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hoshinoya_Okinawa.jpg",
+    "source_name": "Wikimedia Commons",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Hoshinoya_Okinawa.jpg",
+    "author": "Hoshino Resorts / Akifumi Yamabe (YAMABE STUDIO INC.)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photographed_at": "2012-04-23 10:12:20",
+    "retrieved_at": "2026-10-26T04:53:31.355Z",
+    "confidence": 0.95,
+    "verification_status": "verified",
+    "rights_status": "licensed",
+    "modifications": "Resized and converted to WebP; display may crop. Derivative image under the same license.",
+    "sha256": "6f13743ea51e273b7ddaea4b6433de3b3bb9ffc69dfff256dc1c4bd1f5844424",
+    "width": 1646,
+    "height": 1097,
+    "bytes": 422314
+  },
+  "evidence": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "26076095": {
+          "pageid": 26076095,
+          "ns": 6,
+          "title": "File:Hoshinoya Okinawa.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 667985,
+              "width": 1646,
+              "height": 1097,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Hoshinoya_Okinawa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hoshinoya_Okinawa.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26076095",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-05-14 10:47:08",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Hoshinoya Okinawa",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Canon EOS 5D Mark III|Self-published work|Hoshinoya Taketomi Island",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Hoshinoya Okinawa Village",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2012-04-23 10:12:20",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Kikuchi_dai&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Kikuchi dai (page does not exist)\">Hoshino Resorts</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

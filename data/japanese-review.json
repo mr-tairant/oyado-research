@@ -1,0 +1,16 @@
+{
+  "review_status": "approved",
+  "reviewer": "mr-tairant",
+  "approval_evidence": "User approved Japanese five articles, photography and updated publication in this chat: 日本語5記事・写真を承認し、更新公開する",
+  "prepared_at": "2026-10-26T05:05:09.797Z",
+  "hashes": {
+    "src/lib/ja.ts": "9e31160ebfedf4392f7ab5ae0a54b41be9850e964fc604c0909951e499c039d2",
+    "src/pages/ja/[...page].astro": "0058c6cee6f7ccaef47ee795dbfd533864aa6ad5e6df65f96b325d2307a723be",
+    "src/content/stays-ja/hoshinoya-karuizawa.md": "add70cf511bf82bc8ef71d48ed37991450a3c7d66860d804c6fb1884cbd9e659",
+    "src/content/stays-ja/hoshinoya-kyoto.md": "9250921029d189fcf4f79366d8afd71477f3a403d818f75a6b45d95f73909697",
+    "src/content/stays-ja/hoshinoya-taketomi.md": "57987a0418cc720ee6b5d5edff4e3acdda8493d0627af1e26250ea7879931ece",
+    "src/content/stays-ja/kiraku.md": "e7ffaf0c8beb9831d68dfd9a836e1b7795719d6fdc8dba145e596131b448a99e",
+    "src/content/stays-ja/yamatoya.md": "66dec212367d899f981bdba06be4eb9288c7ce5447b4892b397f60d8f7fa9cc4"
+  },
+  "approved_at": "2026-10-26T05:06:16.093Z"
+}

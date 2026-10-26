@@ -14,7 +14,7 @@ export const regions=[...new Set(stays.map(p=>p.region))];
 export const regionSlug=(r:string)=>r.toLowerCase().replaceAll(' ','-');
 // Article HTML is escaped first; generated or interview text cannot inject HTML.
 export function article(id:string,kind='stays') {
- if(!/^[a-z0-9-]+$/.test(id)||!['stays','interviews'].includes(kind))throw Error('Invalid article path');
+ if(!/^[a-z0-9-]+$/.test(id)||!['stays','stays-ja','interviews'].includes(kind))throw Error('Invalid article path');
  const file=path.resolve(`src/content/${kind}/${id}.md`);if(!fs.existsSync(file))return null;
  const raw=fs.readFileSync(file,'utf8');
  if(kind==='interviews'&&(!/^review_status: approved$/m.test(raw)||!/^consent: granted$/m.test(raw)))return null;

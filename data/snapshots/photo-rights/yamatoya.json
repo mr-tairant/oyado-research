@@ -1,0 +1,122 @@
+{
+  "record": {
+    "id": "yamatoya",
+    "kind": "property",
+    "caption": "Dogo Noh Stage at Yamatoya Honten; archival performance photograph",
+    "caption_ja": "大和屋本店・道後能楽堂の舞台（過去の演舞写真）",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dogo_Noh_01.jpg",
+    "source_name": "Wikimedia Commons",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dogo_Noh_01.jpg",
+    "author": "Nagarazoku from TOKYO, Japan",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photographed_at": "2009-03-15 18:59",
+    "retrieved_at": "2026-10-26T04:54:11.588Z",
+    "confidence": 0.95,
+    "verification_status": "verified",
+    "rights_status": "licensed",
+    "modifications": "Resized and converted to WebP; display may crop. Derivative image under the same license.",
+    "sha256": "f0af5fb24861f30a9964cccfc1bb46b83bf58d7d6bc19d87d01def47a4190bca",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 181098
+  },
+  "evidence": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "8123499": {
+          "pageid": 8123499,
+          "ns": 6,
+          "title": "File:Dogo Noh 01.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 4672198,
+              "width": 3264,
+              "height": 2448,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dogo_Noh_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dogo_Noh_01.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=8123499",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2009-10-19 02:22:24",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Dogo Noh 01",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Ricoh GR Digital|Nō theaters and stages|Agemaku|Flickr images reviewed by FlickreviewR|Files from titanium22 Flickr stream|Flickr images missing SDC published in|Yamatoya Honten",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "The demonstration of <i>Mai-bayashi</i>/<i>Shimai</i> at <a rel=\"nofollow\" class=\"external text\" href=\"http://www.yamatoyahonten.com/senjuden/index.html\">Dōgō Noh Stage</a> in <a href=\"https://en.wikipedia.org/wiki/D%C5%8Dgo_Onsen\" class=\"extiw\" title=\"en:Dōgo Onsen\">Dōgo Onsen</a>, <a href=\"https://en.wikipedia.org/wiki/Matsuyama,_Ehime\" class=\"extiw\" title=\"en:Matsuyama, Ehime\">Matsuyama</a>, Japan. It should be known, however, that the use of recordings in Noh contradicts the spirit of Noh.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2009-03-15 18:59",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/11139974@N00/3374553396/\">R0013653</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/11139974@N00\">Nagarazoku</a> from TOKYO, Japan",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+---
+import {Image} from 'astro:assets';
+import {photo} from '../lib/photos';
+const {id,variant='detail',ja=false,href}=Astro.props;
+const p=photo(id);
+---
+{p&&<figure class={`editorial-photo photo-${variant}`}>
+ {href?<a href={href}><Image src={p.image} alt={ja?p.caption_ja:p.caption} widths={[480,900,1600]} sizes="(max-width:480px) 90vw, (max-width:800px) 44vw, 28vw" loading="lazy"/></a>:<Image src={p.image} alt={ja?p.caption_ja:p.caption} widths={[480,900,1600]} sizes={variant==='hero'?'(max-width:800px) 90vw, 40vw':'84vw'} loading="eager" fetchpriority={variant==='hero'?'high':'auto'}/>}
+ <figcaption><span>{ja?p.caption_ja:p.caption} · {p.photographed_at.slice(0,4)}</span><span><a href={p.source_url}>{p.author}</a> · <a href={p.license_url}>{p.license}</a> · {ja?'サイズ変更・表示時トリミング':'Resized / display crop'}</span></figcaption>
+</figure>}

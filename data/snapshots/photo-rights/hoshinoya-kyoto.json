@@ -1,0 +1,122 @@
+{
+  "record": {
+    "id": "hoshinoya-kyoto",
+    "kind": "property",
+    "caption": "Water garden at HOSHINOYA Kyoto",
+    "caption_ja": "星のや京都の水の庭",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hoshinoya_Kyoto.jpg",
+    "source_name": "Wikimedia Commons",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hoshinoya_Kyoto.jpg",
+    "author": "Hoshino Resorts",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photographed_at": "2011-09-24 21:36:46",
+    "retrieved_at": "2026-10-26T04:53:29.219Z",
+    "confidence": 0.95,
+    "verification_status": "verified",
+    "rights_status": "licensed",
+    "modifications": "Resized and converted to WebP; display may crop. Derivative image under the same license.",
+    "sha256": "93696a711c7d1863fe04f2fb86a9a6c4c5d1266ae5960cdb78a0379f62b3a617",
+    "width": 1800,
+    "height": 1246,
+    "bytes": 368236
+  },
+  "evidence": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "26076093": {
+          "pageid": 26076093,
+          "ns": 6,
+          "title": "File:Hoshinoya Kyoto.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2025246,
+              "width": 2404,
+              "height": 1664,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hoshinoya_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hoshinoya_Kyoto.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26076093",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-05-14 10:47:09",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Hoshinoya Kyoto",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Canon EOS-1Ds Mark II|Self-published work|September 2011 in Kyoto|Hoshinoya Kyoto",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Hoshinoya Kyoto water garden",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2011-09-24 21:36:46",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Kikuchi_dai&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Kikuchi dai (page does not exist)\">Hoshino Resorts</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,12 +1,16 @@
 ---
+import {japaneseApproved} from '../lib/translations';
 import {demo,review,publicBuild} from '../lib/data';
 import '../styles/global.css';
 import '../styles/editorial.css';
 const {title='OYADO — The quiet side of Japan',description='Thoughtful stays. Deeper journeys. An independent journal of places to stay in Japan.',schema}=Astro.props;
+const ja=Astro.url.pathname.startsWith('/ja/');
+const prefix=ja?'/ja':'';
+const englishPath=Astro.url.pathname.replace(/^\/ja(?=\/)/,'');
 const canonical=new URL(Astro.url.pathname,Astro.site);
 ---
 <!doctype html>
-<html lang="en">
+<html lang={ja?"ja":"en"}>
   <head>
     <meta charset="UTF-8"/><meta name="viewport" content="width=device-width"/>
     <title>{title}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
@@ -14,14 +18,16 @@ const canonical=new URL(Astro.url.pathname,Astro.site);
     <meta property="og:url" content={canonical}/><meta property="og:image" content={new URL('/og.png',Astro.site)}/><meta name="twitter:card" content="summary_large_image"/>
     {!publicBuild&&<meta name="robots" content="noindex,nofollow"/>}
     {schema&&publicBuild&&<script type="application/ld+json" set:html={JSON.stringify(schema).replaceAll('<','\\u003c')}/>}
+    {!demo&&(!publicBuild||japaneseApproved)&&<><link rel="alternate" hreflang="en" href={new URL(englishPath,Astro.site)}/><link rel="alternate" hreflang="ja" href={new URL('/ja'+englishPath,Astro.site)}/></>}
     <link rel="icon" href="/favicon.svg"/>
   </head>
   <body>
-    <a class="skip" href="#main">Skip to content</a>
+    <a class="skip" href="#main">{ja?'本文へ移動':'Skip to content'}</a>
     {demo&&<div class="demo">EDITORIAL PROTOTYPE · All five stays are fictional samples · Not a booking guide</div>}
-    {review&&<div class="demo">PRIVATE EDITORIAL REVIEW · Real-property drafts awaiting human approval · Not for publication</div>}
-    <header><a class="wordmark" href="/">OYADO<span>日本の宿</span></a><nav aria-label="Main navigation"><a href="/stays/">The collection</a><a href="/regions/">By region</a><a href="/about/">Our journal ↗</a></nav></header>
+    {ja&&!japaneseApproved&&<div class="demo">日本語版・確認用ドラフト · 公開前の内容確認</div>}
+    {review&&!ja&&<div class="demo">PRIVATE EDITORIAL REVIEW · Real-property drafts awaiting human approval · Not for publication</div>}
+    <header><a class="wordmark" href={`${prefix}/`}>OYADO<span>日本の宿</span></a><nav aria-label="Main navigation"><a href={`${prefix}/stays/`}>{ja?'宿を探す':'The collection'}</a><a href={`${prefix}/regions/`}>{ja?'地域から探す':'By region'}</a><a href={`${prefix}/about/`}>{ja?'編集方針':'Our journal ↗'}</a>{!demo&&(!publicBuild||japaneseApproved)&&<a class="language-switch" href={ja?englishPath:'/ja'+englishPath} lang={ja?'en':'ja'}>{ja?'EN':'日本語'}</a>}</nav></header>
     <main id="main"><slot/></main>
-    <footer><a class="wordmark" href="/">OYADO</a><p>A little closer to Japan.<br/>Independent stories of places to stay.</p><a href="/about/">Editorial & source policy ↗</a><small>© {new Date().getFullYear()} OYADO JOURNAL {demo?'· DEMONSTRATION':review?'· PRIVATE DRAFT REVIEW':''}</small></footer>
+    <footer><a class="wordmark" href={`${prefix}/`}>OYADO</a><p>{ja?'日本の宿を、もっと深く。':'A little closer to Japan.'}<br/>{ja?'宿泊施設の情報を伝える独立系メディア。':'Independent stories of places to stay.'}</p><a href={`${prefix}/about/`}>{ja?'編集方針・出典について ↗':'Editorial & source policy ↗'}</a><small>© {new Date().getFullYear()} OYADO JOURNAL {demo?'· DEMONSTRATION':review?'· PRIVATE DRAFT REVIEW':''}</small></footer>
   </body>
 </html>

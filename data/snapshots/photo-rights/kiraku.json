@@ -1,0 +1,135 @@
+{
+  "record": {
+    "id": "kiraku",
+    "kind": "destination",
+    "caption": "Zao Onsen panorama — destination scenery, not the inn",
+    "caption_ja": "蔵王温泉の地域風景（施設内ではありません）",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zao_panorama.jpg",
+    "source_name": "Wikimedia Commons",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Zao_panorama.jpg",
+    "author": "Ymblanter",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photographed_at": "2013-02-28 07:27:04",
+    "retrieved_at": "2026-10-26T04:53:52.254Z",
+    "confidence": 0.95,
+    "verification_status": "verified",
+    "rights_status": "licensed",
+    "modifications": "Resized and converted to WebP; display may crop. Derivative image under the same license.",
+    "sha256": "6eee66aa291eed959b1a62a93a9972c3beabfda847e3c861fa19a83c73f3117f",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 367890
+  },
+  "evidence": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "25938976": {
+          "pageid": 25938976,
+          "ns": 6,
+          "title": "File:Zao panorama.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5674430,
+              "width": 3648,
+              "height": 2736,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Zao_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Zao_panorama.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25938976",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-05-06 20:24:40",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Zao panorama",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Zao Mountains|Taken with Olympus E-510|Self-published work|Files with coordinates missing SDC location of creation|Japan photographs taken on 2013-02-28|Photographs of Japan by Ymblanter",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "38.166808",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "140.397186",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Panorama of Zao Onsen",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2013-02-28 07:27:04",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ymblanter\" title=\"User:Ymblanter\">Ymblanter</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

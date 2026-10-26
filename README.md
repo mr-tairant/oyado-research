@@ -30,4 +30,10 @@ The five real properties from seed 42 have source-backed English articles, appro
 
 The live project uses Cloudflare Pages' Git integration: pushes to `main` trigger a production build, including the editorial approval checks. `.github/workflows/publish.yml` is an optional manual alternative requiring separate secrets. See [release review](docs/release-review.md).
 
+## Photography and Japanese edition
+
+The user approved the five Japanese guides and photography on 26 October 2026. Japanese routes live under `/ja/`, with page-level language links, hreflang and sitemap entries. `data/japanese-review.json` records approval and content hashes; changed translations require another review.
+
+Five licensed Wikimedia Commons photographs are optimized locally with Astro Image. Credits, license links and capture years appear beside each image. Karuizawa and Zao use explicitly labeled destination scenery. The original files and source-page screenshots remain in ignored internal snapshots. See [photography and translation operations](docs/photography.md). Run `node scripts/check-photos.mjs dist` after a production build.
+
 The paid-generation adapter follows the [official OpenAI Responses text-generation guide](https://developers.openai.com/api/docs/guides/text). Its network path is intentionally unexecuted in the demo. Optional collectors are `scripts/collect_allowed.py`, `scripts/extract.py` and `scripts/screenshot_allowed.py`; see operations before granting any URL permissions.

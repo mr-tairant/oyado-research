@@ -16,4 +16,5 @@ jobs:
           PUBLICATION_MODE: production
           SITE_URL: https://oyado-journal.pages.dev
       - run: node scripts/check-output.mjs dist production
+      - run: node scripts/check-photos.mjs dist
       - run: npm audit --omit=dev --audit-level=high

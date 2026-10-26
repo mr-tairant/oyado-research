@@ -15,6 +15,8 @@ const astroBin=path.resolve(path.dirname(astroPackage),JSON.parse(fs.readFileSyn
 if(action==='build'){
  const check=spawnSync(process.execPath,['scripts/pipeline.mjs','validate'],{cwd,env,stdio:'inherit'});
  if(check.status!==0)process.exit(check.status||1);
+ const photos=spawnSync(process.execPath,['scripts/check-photos.mjs'],{cwd,env,stdio:'inherit'});
+ if(photos.status!==0)process.exit(photos.status||1);
 }
 const child=spawn(process.execPath,[astroBin,action,...(action==='build'?[]:['--host','127.0.0.1','--port',port])],{cwd,env,stdio:'inherit'});
 child.on('error',e=>{console.error(e.message);process.exitCode=1;});
