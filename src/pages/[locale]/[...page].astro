@@ -2,11 +2,11 @@
 import Layout from '../../layouts/International.astro';
 import Photo from '../../components/InternationalPhoto.astro';
 import {copy,locales,localizedStays,type Locale} from '../../lib/international';
-import {article,review,regions,regionSlug} from '../../lib/data';
+import {internationalApproved} from '../../lib/international-approval';
+import {article,review,demo,regions,regionSlug} from '../../lib/data';
 export function getStaticPaths(){
- // New translations have no publication approval; only private review builds emit them.
- if(!review)return [];
- return locales.flatMap(locale=>[undefined,'stays','regions','about',...localizedStays(locale).map(p=>'stays/'+p.id),...regions.map(r=>'regions/'+regionSlug(r))].map(page=>({params:{locale,page}})));
+ if(demo)return [];
+ return locales.filter(locale=>review||internationalApproved[locale]).flatMap(locale=>[undefined,'stays','regions','about',...localizedStays(locale).map(p=>'stays/'+p.id),...regions.map(r=>'regions/'+regionSlug(r))].map(page=>({params:{locale,page}})));
 }
 const locale=Astro.params.locale as Locale,t=copy[locale],prefix='/'+locale;
 const page=Astro.params.page||'',items=localizedStays(locale);
@@ -20,7 +20,7 @@ const sources=p?[...new Map(p.facts.map(f=>[f.source_url,f])).values()]:[];
 {p?<>
  <section class="detail-head"><a class="eyebrow" href={`${prefix}/regions/${regionSlug(p.region)}/`}>{regionName(p.region)}</a><h1>{p.name}</h1><p class="deck">{p.intro}</p></section>
  <Photo id={p.id} locale={locale}/>
- <div class="article-layout"><aside><a href="#stay-guide">{t.read}</a><p>{t.checked}<br/>{p.updated_at.slice(0,10)}</p><p>{t.draft}</p></aside><div><section id="stay-guide" class="prose"><div set:html={article(p.id,`stays-${locale}`)}/></section><section class="sources"><h2>{t.sources}</h2><p>{t.notice}</p><ul>{sources.map(f=><li><a href={f.source_url}>{t.source}</a> · {t.checked} {f.retrieved_at.slice(0,10)}</li>)}</ul><a class="text-link" href={p.official_url}>{t.official} ↗</a></section></div></div>
+ <div class="article-layout"><aside><a href="#stay-guide">{t.read}</a><p>{t.checked}<br/>{p.updated_at.slice(0,10)}</p>{!internationalApproved[locale]&&<p>{t.draft}</p>}</aside><div><section id="stay-guide" class="prose"><div set:html={article(p.id,`stays-${locale}`)}/></section><section class="sources"><h2>{t.sources}</h2><p>{t.notice}</p><ul>{sources.map(f=><li><a href={f.source_url}>{t.source}</a> · {t.checked} {f.retrieved_at.slice(0,10)}</li>)}</ul><a class="text-link" href={p.official_url}>{t.official} ↗</a></section></div></div>
 </>:page==='about'?<>
  <section class="page-head"><p class="eyebrow">OYADO JOURNAL</p><h1>{t.editors}</h1><p>{t.policy}</p></section><article class="about prose">{t.principles.map((heading,i)=><><h2>{heading}</h2><p>{t.details[i]}</p></>)}</article>
 </>:page==='regions'?<>

@@ -49,3 +49,11 @@
 - 承認・検証：1440/768/390pxをPlaywrightで撮影して目視修正。利用者のデザイン確認・Commit/マージ・Push承認後、日本語UI承認を反映し英日28ページの本番ビルドを検証。実装`49fb31e`、承認記録`4667d57`、mainへのPush成功。外部デプロイ完了は別に確認する。
 - 制約・影響：Home・Regionsへの共通化に伴い、Card・Photo・Layout・両CSSも日本語承認ハッシュ対象へ追加。今後これらの変更は日本語再承認を要する。判定と準備スクリプトの対象を一致させる。日本語中心のデザインでも英語ルートを日本語へリダイレクトしない。
 - 根拠：[デザインレビュー](docs/design-review.md)、`src/components/Home.astro`、`src/components/Regions.astro`、`src/lib/translations.ts`、`scripts/review-japanese.mjs`、`data/japanese-review.json`。
+
+## D006 — 韓国語・簡体字中国語の公開と承認境界
+
+- 日付：2026-10-27。状態：採用。D002の公開承認原則を新規2言語にも適用。
+- 利用者が韓国語・中国語ページの作成、4言語のリンク追加を指示し、最後に「マージ、公開にGO。」と明示承認。
+- 韓国語 /ko/ と簡体字中国語 /zh-cn/ を各14ページ追加。言語別の記事・UI・共通ファイルの内容ハッシュと人の承認根拠をdata/international-review.jsonで照合。変更後は本番出力・言語切替・サイトマップから該当言語を外す。
+- 英日を含む対応ページへの切替、hreflang、サイトマップを整備。レビュー成果物はnoindexで外部公開しない。英日記事・施設データ・写真権利を維持。
+- 繁体字は対象外。新規施設調査や母語話者による独立校閲を実施したとは扱わない。根拠：[多言語レビュー](docs/international-review.md)、scripts/international-review.mjs。

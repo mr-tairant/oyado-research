@@ -8,7 +8,7 @@
     "collect": "node scripts/pipeline.mjs collect",
     "generate": "node scripts/pipeline.mjs generate",
     "validate": "node scripts/pipeline.mjs validate && node scripts/check-photos.mjs",
-    "test": "node --test scripts/pipeline.test.mjs",
+    "test": "node --test scripts/pipeline.test.mjs scripts/international-review.test.mjs",
     "dev": "astro dev --host 127.0.0.1",
     "build": "node scripts/pipeline.mjs validate && node scripts/check-photos.mjs && astro build",
     "preview": "astro preview --host 127.0.0.1",

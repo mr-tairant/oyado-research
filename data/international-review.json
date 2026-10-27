@@ -1,0 +1,56 @@
+{
+  "ko": {
+    "review_status": "approved",
+    "reviewer": "mr-tairant",
+    "approval_evidence": "On 2026-10-27, after Korean and Simplified Chinese review pages were provided and English/Japanese language navigation was added and pushed as d552dd0, the user explicitly authorized merge and publication: 「マージ、公開にGO。」 Scope: five translated guides and UI in Korean and Simplified Chinese, four-language navigation, production indexing and sitemap. No claim is made of independent native-speaker proofreading or new property research.",
+    "prepared_at": "2026-10-27T00:49:58.914Z",
+    "hashes": {
+      "scripts/international-review.mjs": "026123577c3147f483b7bcb1134ce06e57c690635be50b462b10a5e645649000",
+      "src/lib/international.ts": "66a1dc36eb3ac234a94d8917cd1f06328a410a88c61b9b9fe85853124da2cfb7",
+      "src/lib/international-approval.ts": "374d1525b90329c3adcc7321a1a8913b734e3e7b72c60e2d07a94eb57b1d37da",
+      "src/lib/data.ts": "2734c3026a040f1670ec6999edb53dc5700859bdb27b33b2fe997e17dd42d986",
+      "src/lib/photos.ts": "c28288d36560d409effd05efe857a365f02f76e6d5f5cee372aa15f48b45bb1c",
+      "data/photos.json": "08d3a1d61f20bf599a80eac1f392dd854f9a58c4de243e7d14edaf5e65f1a5ae",
+      "src/layouts/International.astro": "d948db5307b04086527e89a6fbf97169c7798fbfd5200e4bda339f24bd6edd1e",
+      "src/layouts/Layout.astro": "9651b7e1e3a6736221e8c3ade7faa3e134fc7d671c54db5be296da7ceffab343",
+      "src/components/InternationalPhoto.astro": "422d27d9d3d5fddacaee754244cf22ac20c797db6debf05071a78dd42b5069be",
+      "src/pages/[locale]/[...page].astro": "35f581eed12f4306b07721f6e21891668d9d3a04fe157dde275bf8ca674c0ae5",
+      "src/pages/sitemap.xml.ts": "fd3132a39bfd9fa1219edc6e9de6aec441c0fb1d8989b07287eaff76f34dcf24",
+      "src/styles/global.css": "22cd388ce2db81426e3992f4ce4e9dbf2bf74aea90590a8f9bab7687bf44a33d",
+      "src/styles/editorial.css": "10debd25f7108d610f929e17044e7fda307c6d077c9504a167e3d4cc96958be8",
+      "src/content/stays-ko/hoshinoya-karuizawa.md": "3cb578c740d42282612db82cf0c49bc2c918706801655c494fbc7f751faa4a37",
+      "src/content/stays-ko/hoshinoya-kyoto.md": "a680e609b76960968fc90e217793d7503b47f743eef88e1bc432cabfe476fb7f",
+      "src/content/stays-ko/hoshinoya-taketomi.md": "2d39bea0eff646ffd7f4893bef076b152bc75d4f38dda0b95336b2d04c5591af",
+      "src/content/stays-ko/kiraku.md": "c0e49a124c23be29a357e3e2a766d0f83495a550a2d5173e35cf6b47005819cf",
+      "src/content/stays-ko/yamatoya.md": "22b63c3c12725109957bb8e40d88173aeb0b7521eb961cd378c26f6505bd010f"
+    },
+    "approved_at": "2026-10-27T00:49:59.041Z"
+  },
+  "zh-cn": {
+    "review_status": "approved",
+    "reviewer": "mr-tairant",
+    "approval_evidence": "On 2026-10-27, after Korean and Simplified Chinese review pages were provided and English/Japanese language navigation was added and pushed as d552dd0, the user explicitly authorized merge and publication: 「マージ、公開にGO。」 Scope: five translated guides and UI in Korean and Simplified Chinese, four-language navigation, production indexing and sitemap. No claim is made of independent native-speaker proofreading or new property research.",
+    "prepared_at": "2026-10-27T00:49:58.974Z",
+    "hashes": {
+      "scripts/international-review.mjs": "026123577c3147f483b7bcb1134ce06e57c690635be50b462b10a5e645649000",
+      "src/lib/international.ts": "66a1dc36eb3ac234a94d8917cd1f06328a410a88c61b9b9fe85853124da2cfb7",
+      "src/lib/international-approval.ts": "374d1525b90329c3adcc7321a1a8913b734e3e7b72c60e2d07a94eb57b1d37da",
+      "src/lib/data.ts": "2734c3026a040f1670ec6999edb53dc5700859bdb27b33b2fe997e17dd42d986",
+      "src/lib/photos.ts": "c28288d36560d409effd05efe857a365f02f76e6d5f5cee372aa15f48b45bb1c",
+      "data/photos.json": "08d3a1d61f20bf599a80eac1f392dd854f9a58c4de243e7d14edaf5e65f1a5ae",
+      "src/layouts/International.astro": "d948db5307b04086527e89a6fbf97169c7798fbfd5200e4bda339f24bd6edd1e",
+      "src/layouts/Layout.astro": "9651b7e1e3a6736221e8c3ade7faa3e134fc7d671c54db5be296da7ceffab343",
+      "src/components/InternationalPhoto.astro": "422d27d9d3d5fddacaee754244cf22ac20c797db6debf05071a78dd42b5069be",
+      "src/pages/[locale]/[...page].astro": "35f581eed12f4306b07721f6e21891668d9d3a04fe157dde275bf8ca674c0ae5",
+      "src/pages/sitemap.xml.ts": "fd3132a39bfd9fa1219edc6e9de6aec441c0fb1d8989b07287eaff76f34dcf24",
+      "src/styles/global.css": "22cd388ce2db81426e3992f4ce4e9dbf2bf74aea90590a8f9bab7687bf44a33d",
+      "src/styles/editorial.css": "10debd25f7108d610f929e17044e7fda307c6d077c9504a167e3d4cc96958be8",
+      "src/content/stays-zh-cn/hoshinoya-karuizawa.md": "1721290663c33294fd38762f632bb216422cdaa48b5b2d9ea9c7992525a6fa3b",
+      "src/content/stays-zh-cn/hoshinoya-kyoto.md": "139354d472ff5c06d8894b48ff7904d45d1da73f1a28296b2d3d7a8cb8a5a311",
+      "src/content/stays-zh-cn/hoshinoya-taketomi.md": "470a3d984642ee17b13e04f0617d45780ed1ff5a51b48110e05d45cd347a8139",
+      "src/content/stays-zh-cn/kiraku.md": "9e02aff18cb0f332993fea68cb5712e28ce8ed251e34beae50e39e1bfd526d23",
+      "src/content/stays-zh-cn/yamatoya.md": "1936c8e1b4c94195146a03e8508a92352b8c9994258f708c6e4f04dce118e9d1"
+    },
+    "approved_at": "2026-10-27T00:49:59.099Z"
+  }
+}
