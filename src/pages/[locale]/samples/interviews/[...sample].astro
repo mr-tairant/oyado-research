@@ -1,0 +1,7 @@
+---
+import Samples from '../../../../components/InterviewSamples.astro';
+import {interviewSamples} from '../../../../lib/interview-samples';
+import {demo} from '../../../../lib/data';
+export function getStaticPaths(){return demo?[]:['ko','zh-cn'].flatMap(locale=>[undefined,...interviewSamples.map(item=>item.slug)].map(sample=>({params:{locale,sample}})));}
+---
+<Samples locale={Astro.params.locale as 'ko'|'zh-cn'} slug={Astro.params.sample}/>

@@ -7,12 +7,26 @@ const root=path.resolve(directory),selection=JSON.parse(fs.readFileSync('data/se
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);
 const files=walk(root);const htmls=files.filter(f=>f.endsWith('.html'));
 for(const file of htmls){const html=fs.readFileSync(file,'utf8');
- const sample=path.relative(root,file).split(path.sep).join('/').startsWith('ja/samples/interviews/');
+ const relative=path.relative(root,file).split(path.sep).join('/');
+ const sample=/^(?:(?:ja|ko|zh-cn)\/)?samples\/interviews\//.test(relative);
  if(sample){
   if(mode==='demo')throw Error('Sales interview sample in fictional stay demo: '+file);
-  if(!html.includes('宿・人物・発言はすべて架空')||!html.includes('noindex,nofollow')||!/<html\b[^>]*\blang="ja"(?:\s|>)/.test(html))throw Error('Missing fictional sample disclosure: '+file);
-  const expectedImages=path.basename(path.dirname(file))==='interviews'?2:3;
-  if((html.match(/<img\s/g)||[]).length!==expectedImages||!html.includes('srcset=')||!html.includes('AI生成'))throw Error('Missing sample imagery or disclosure: '+file);
+  const locale=relative.startsWith('samples/')?'en':relative.split('/')[0];
+  const slug=path.basename(path.dirname(file));
+  if(slug==='mountain-inn')throw Error('Deleted interview sample remains: '+file);
+  if(!['interviews','townhouse-stay','riverside-retreat'].includes(slug))throw Error('Unknown interview sample: '+file);
+  const language={ja:'ja',en:'en',ko:'ko','zh-cn':'zh-Hans'}[locale];
+  const disclosure={ja:'本文の宿名・人物・発言は架空',en:'The stories, characters and quotations are fictional','zh-cn':'正文中的旅馆名称、人物与发言均为虚构',ko:'본문의 숙소명·인물·발언은 가상'}[locale];
+  if(!disclosure||!html.includes(disclosure)||!html.includes('noindex,nofollow')||!new RegExp(`<html\\b[^>]*\\blang="${language}"(?:\\s|>)`).test(html))throw Error('Missing fictional sample disclosure: '+file);
+  const expectedImages=slug==='interviews'?2:slug==='riverside-retreat'?2:3;
+  if((html.match(/<img\s/g)||[]).length!==expectedImages||!html.includes('srcset='))throw Error('Missing sample imagery: '+file);
+  if(/AI生成|AI-generated|AI 생성|AI로 생성|AIで生成/.test(html))throw Error('Unwanted customer-facing wording: '+file);
+  if(slug==='riverside-retreat'||slug==='interviews'){
+   for(const value of ['Hoshino Resorts','https://commons.wikimedia.org/wiki/File:Hoshinoya_Kyoto.jpg','https://creativecommons.org/licenses/by-sa/3.0','2011'])if(!html.includes(value))throw Error('Missing reference photo attribution: '+file);
+  }
+  if(slug==='riverside-retreat'&&html.includes('class="profile-photo"'))throw Error('Face portrait in property-led sample: '+file);
+  if(slug!=='interviews'&&(html.match(/class="qa"/g)||[]).length!==5)throw Error('Incomplete sample interview: '+file);
+  if(slug==='interviews'&&!html.match(/class="card-art"[^>]*href="[^"]*\/riverside-retreat\/"/))throw Error('Missing property-led sample card: '+file);
   continue;
  }
  const locale=path.relative(root,file).split(path.sep)[0];
@@ -54,7 +68,7 @@ for(const locale of ['ko','zh-cn']){
  }
 }
 const sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
-if(mode!=='demo')for(const route of ['','mountain-inn','townhouse-stay'])if(!fs.existsSync(path.join(root,'ja/samples/interviews',route,'index.html')))throw Error('Missing interview sample: '+route);
+if(mode!=='demo')for(const prefix of ['ja/','','ko/','zh-cn/'])for(const route of ['','townhouse-stay','riverside-retreat'])if(!fs.existsSync(path.join(root,prefix+'samples/interviews',route,'index.html')))throw Error('Missing interview sample: '+prefix+route);
 if(sitemap.includes('/samples/interviews/'))throw Error('Sales interview sample in sitemap');
 if(mode==='production'&&(!sitemap.includes('https://oyado-journal.pages.dev/stays/')||sitemap.includes('demo-')))throw Error('Invalid production sitemap');
 if(mode==='production')for(const locale of ['ko','zh-cn']){

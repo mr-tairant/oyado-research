@@ -1,0 +1,12 @@
+---
+import type {SampleLocale} from '../lib/interview-sample-i18n';
+const {locale,credit}=Astro.props as {locale:SampleLocale,credit:{author:string;source_url:string;license:string;license_url:string;photographed_at:string}};
+const text={
+ ja:{title:'写真素材例：星のや京都（水の庭と建物）',note:'本文は架空のサンプルです。写真の宿へのインタビューではなく、同施設の推薦・協賛を示すものではありません。',changes:'サイズ変更・表示時トリミング／同一ライセンス'},
+ en:{title:'Reference photograph: HOSHINOYA Kyoto, water garden and buildings',note:'The story is fictional, not an interview with the photographed inn. No endorsement or sponsorship is implied.',changes:'Resized / display crop; derivative under the same license'},
+ 'zh-cn':{title:'参考照片：虹夕诺雅京都的水庭与建筑',note:'正文为虚构样例，并非对照片中旅馆的采访，也不代表该设施的推荐或赞助。',changes:'调整尺寸／展示时裁切；衍生图片沿用同一许可'},
+ ko:{title:'참고 사진: 호시노야 교토의 물의 정원과 건물',note:'본문은 가상 샘플이며 사진 속 숙소를 취재한 기사가 아닙니다. 해당 시설의 추천이나 협찬을 의미하지 않습니다.',changes:'크기 조정／표시 시 자르기; 동일 라이선스 적용'}
+}[locale];
+---
+<div class="photo-credit"><span>{text.title} · {credit.photographed_at.slice(0,4)}</span><span><a href={credit.source_url}>{credit.author}</a> · <a href={credit.license_url}>{credit.license}</a> · {text.changes}</span><span>{text.note}</span></div>
+<style>.photo-credit{display:grid;gap:4px;font-size:10px;line-height:1.8;color:var(--muted);padding-top:10px}.photo-credit a{text-decoration:underline;text-underline-offset:3px}</style>
