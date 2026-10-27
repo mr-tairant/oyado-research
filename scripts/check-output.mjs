@@ -7,6 +7,14 @@ const root=path.resolve(directory),selection=JSON.parse(fs.readFileSync('data/se
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);
 const files=walk(root);const htmls=files.filter(f=>f.endsWith('.html'));
 for(const file of htmls){const html=fs.readFileSync(file,'utf8');
+ const sample=path.relative(root,file).split(path.sep).join('/').startsWith('ja/samples/interviews/');
+ if(sample){
+  if(mode==='demo')throw Error('Sales interview sample in fictional stay demo: '+file);
+  if(!html.includes('宿・人物・発言はすべて架空')||!html.includes('noindex,nofollow')||!/<html\b[^>]*\blang="ja"(?:\s|>)/.test(html))throw Error('Missing fictional sample disclosure: '+file);
+  const expectedImages=path.basename(path.dirname(file))==='interviews'?2:3;
+  if((html.match(/<img\s/g)||[]).length!==expectedImages||!html.includes('srcset=')||!html.includes('AI生成'))throw Error('Missing sample imagery or disclosure: '+file);
+  continue;
+ }
  const locale=path.relative(root,file).split(path.sep)[0];
  const ja=locale==='ja',translation=locale==='ko'||locale==='zh-cn';
  if(translation&&(mode==='demo'||mode==='production'&&!translationApproved(locale)))throw Error('Unapproved translation outside private review: '+file);
@@ -46,6 +54,8 @@ for(const locale of ['ko','zh-cn']){
  }
 }
 const sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
+if(mode!=='demo')for(const route of ['','mountain-inn','townhouse-stay'])if(!fs.existsSync(path.join(root,'ja/samples/interviews',route,'index.html')))throw Error('Missing interview sample: '+route);
+if(sitemap.includes('/samples/interviews/'))throw Error('Sales interview sample in sitemap');
 if(mode==='production'&&(!sitemap.includes('https://oyado-journal.pages.dev/stays/')||sitemap.includes('demo-')))throw Error('Invalid production sitemap');
 if(mode==='production')for(const locale of ['ko','zh-cn']){
  if(sitemap.includes(`https://oyado-journal.pages.dev/${locale}/`)!==translationApproved(locale))throw Error('Translation sitemap approval mismatch: '+locale);

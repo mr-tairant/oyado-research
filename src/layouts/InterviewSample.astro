@@ -1,0 +1,8 @@
+---
+import '../styles/global.css';
+const {title}=Astro.props as {title:string};
+---
+<!doctype html>
+<html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width"/><title>{title} | OYADO JOURNAL</title><meta name="description" content="商談用の架空インタビュー掲載サンプル。実際の取材・施設・人物の紹介ではありません。"/><meta name="robots" content="noindex,nofollow"/><link rel="canonical" href={new URL(Astro.url.pathname,Astro.site)}/><meta property="og:image" content={new URL('/og.png',Astro.site)}/><link rel="icon" href="/favicon.svg"/></head>
+<body><a class="skip" href="#main">本文へ移動</a><div class="sample-notice">商談用サンプル — 宿・人物・発言はすべて架空です。実際の取材記事ではありません。</div><header><a class="wordmark" href="/ja/samples/interviews/">OYADO<span>JOURNAL — INTERVIEW SAMPLE</span></a><nav aria-label="サンプルナビゲーション"><a href="/ja/samples/interviews/">掲載サンプル一覧</a><a href="/ja/">日本語トップ ↗</a></nav></header><main id="main"><slot/></main><footer><a class="wordmark" href="/ja/samples/interviews/">OYADO</a><p>宿を知る、その人の言葉から。<br/>インタビューの掲載イメージをご案内します。</p><small>商談用の架空サンプル · 画像はAI生成の架空イメージです。実掲載は取材・写真使用許諾・原稿確認の後に行います。</small></footer></body></html>
+<style>.sample-notice{padding:12px 5%;background:var(--ink);color:var(--paper);font-size:11px;line-height:1.8;text-align:center}header,nav{flex-wrap:wrap}html{font-family:Arial,'Yu Gothic',sans-serif}h1,h2,h3{font-family:'Yu Mincho','Hiragino Mincho ProN',serif}@media print{header nav,.skip{display:none}.sample-notice{color:#242522;background:none;border-bottom:1px solid #aaa}footer{background:none;color:#242522}footer p,footer small{color:#242522}}</style>
