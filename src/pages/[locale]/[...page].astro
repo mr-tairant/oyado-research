@@ -1,0 +1,45 @@
+---
+import Layout from '../../layouts/International.astro';
+import Photo from '../../components/InternationalPhoto.astro';
+import {copy,locales,localizedStays,type Locale} from '../../lib/international';
+import {article,review,regions,regionSlug} from '../../lib/data';
+export function getStaticPaths(){
+ // New translations have no publication approval; only private review builds emit them.
+ if(!review)return [];
+ return locales.flatMap(locale=>[undefined,'stays','regions','about',...localizedStays(locale).map(p=>'stays/'+p.id),...regions.map(r=>'regions/'+regionSlug(r))].map(page=>({params:{locale,page}})));
+}
+const locale=Astro.params.locale as Locale,t=copy[locale],prefix='/'+locale;
+const page=Astro.params.page||'',items=localizedStays(locale);
+const p=items.find(p=>page==='stays/'+p.id),region=regions.find(r=>page==='regions/'+regionSlug(r));
+const selected=region?items.filter(p=>p.region===region):items;
+const regionName=(r:string)=>t.regionNames[r as keyof typeof t.regionNames]||r;
+const title=p?p.name:page==='about'?t.about:page==='regions'?t.regions:region?regionName(region):page==='stays'?t.collection:t.title;
+const sources=p?[...new Map(p.facts.map(f=>[f.source_url,f])).values()]:[];
+---
+<Layout locale={locale} title={title}>
+{p?<>
+ <section class="detail-head"><a class="eyebrow" href={`${prefix}/regions/${regionSlug(p.region)}/`}>{regionName(p.region)}</a><h1>{p.name}</h1><p class="deck">{p.intro}</p></section>
+ <Photo id={p.id} locale={locale}/>
+ <div class="article-layout"><aside><a href="#stay-guide">{t.read}</a><p>{t.checked}<br/>{p.updated_at.slice(0,10)}</p><p>{t.draft}</p></aside><div><section id="stay-guide" class="prose"><div set:html={article(p.id,`stays-${locale}`)}/></section><section class="sources"><h2>{t.sources}</h2><p>{t.notice}</p><ul>{sources.map(f=><li><a href={f.source_url}>{t.source}</a> · {t.checked} {f.retrieved_at.slice(0,10)}</li>)}</ul><a class="text-link" href={p.official_url}>{t.official} ↗</a></section></div></div>
+</>:page==='about'?<>
+ <section class="page-head"><p class="eyebrow">OYADO JOURNAL</p><h1>{t.editors}</h1><p>{t.policy}</p></section><article class="about prose">{t.principles.map((heading,i)=><><h2>{heading}</h2><p>{t.details[i]}</p></>)}</article>
+</>:page==='regions'?<>
+ <section class="page-head"><p class="eyebrow">OYADO ATLAS</p><h1>{t.atlas}</h1><p>{t.regionIntro}</p></section>
+</>:page==='stays'||region?<>
+ <section class="page-head"><p class="eyebrow">OYADO COLLECTION</p><h1>{title}</h1><p>{t.intro}</p></section>
+</>:<>
+ <div class="edition-line"><span>{t.description}</span><span>Japan / Vol. 01</span></div><section class="cover"><div class="cover-masthead" aria-hidden="true">OYADO<span>JOURNAL</span></div><div class="cover-image"><Photo id="hoshinoya-kyoto" locale={locale} variant="hero"/><div class="cover-title"><p>OYADO JOURNAL / 01</p><h1>{t.hero}</h1></div></div><div class="cover-bottom"><p>{t.intro}</p><a href={`${prefix}/stays/hoshinoya-kyoto/`}>{t.names[1]} ↗</a></div></section>
+ <section class="opening"><span class="section-number">01 / {t.collection}</span><h2>{t.title}</h2><div><p>{t.intro}</p><a class="text-link" href={`${prefix}/stays/`}>{t.all} ↗</a></div></section>
+</>}
+{!p&&page!=='about'&&page!=='regions'&&<section class={page?'collection':'feature-collection'}>
+{page&&<><form class="filters" role="search" onsubmit="return false"><label>{t.query}<input id="intl-query" type="search"/></label><label>{t.region}<select id="intl-region"><option value="">{t.any}</option>{regions.map(r=><option value={r}>{regionName(r)}</option>)}</select></label></form><p id="intl-count" aria-live="polite" data-suffix={t.count}>{selected.length} {t.count}</p></>}
+<div class={page?'cards':'editorial-grid'}>{selected.map((s,i)=><article class="stay-card" data-name={[s.name,s.intro,...s.tags,regionName(s.region)].join(' ').toLowerCase()} data-region={s.region}><Photo id={s.id} locale={locale} variant="card" href={`${prefix}/stays/${s.id}/`}/><div class="card-meta"><a href={`${prefix}/regions/${regionSlug(s.region)}/`}>{regionName(s.region)}</a><span>{String(i+1).padStart(2,'0')}</span></div><h3><a href={`${prefix}/stays/${s.id}/`}>{s.name}</a></h3><p>{s.intro}</p><div class="tags">{s.tags.map(tag=><span>{tag}</span>)}</div></article>)}</div><p id="intl-empty" hidden>{t.empty}</p></section>}
+{(!page||page==='regions')&&<section class="atlas"><div class="atlas-heading"><span class="section-number">02 / {t.regions}</span><h2>{t.atlas}</h2><p>{t.regionIntro}</p><Photo id="kiraku" locale={locale} variant="atlas"/></div><div class="region-index">{regions.map((r,i)=><a href={`${prefix}/regions/${regionSlug(r)}/`}><span class="index-no">0{i+1}</span><span><strong>{regionName(r)}</strong><small>{items.filter(s=>s.region===r).length} {t.count}</small></span><span class="index-arrow">↗</span></a>)}</div></section>}
+{!page&&<><section class="journal"><div class="section-heading"><h2>{t.journal}</h2></div><div class="journal-index">{items.slice(0,3).map((s,i)=><a href={`${prefix}/stays/${s.id}/`}><span class="index-no">0{i+1}</span><div><small>{regionName(s.region)}</small><h3>{s.name}</h3><p>{s.intro}</p></div><span>↗</span></a>)}</div></section><section class="colophon"><span>OYADO JOURNAL</span><h2>{t.editors}</h2><div><p>{t.policy}</p><a class="text-link" href={`${prefix}/about/`}>{t.about} ↗</a></div></section></>}
+</Layout>
+<style>.cover-title h1{max-width:12ch;word-break:normal;overflow-wrap:anywhere}.stay-card[hidden]{display:none}.cover-title{max-width:90%}@media(max-width:800px){.cover-title h1{font-size:clamp(2rem,7vw,4rem)}}</style>
+<script>
+const query=document.querySelector<HTMLInputElement>('#intl-query'),select=document.querySelector<HTMLSelectElement>('#intl-region');
+function filter(){if(!query||!select)return;let count=0;document.querySelectorAll<HTMLElement>('.stay-card').forEach(card=>{card.hidden=!(card.dataset.name?.includes(query.value.trim().toLowerCase())&&(!select.value||card.dataset.region===select.value));if(!card.hidden)count++;});const result=document.querySelector<HTMLElement>('#intl-count'),empty=document.querySelector<HTMLElement>('#intl-empty');if(result)result.textContent=`${count} ${result.dataset.suffix}`;if(empty)empty.hidden=count>0;}
+query?.addEventListener('input',filter);select?.addEventListener('change',filter);
+</script>

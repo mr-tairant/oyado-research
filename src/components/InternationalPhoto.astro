@@ -1,0 +1,10 @@
+---
+import {Image} from 'astro:assets';
+import {photo} from '../lib/photos';
+import {copy,ids,type Locale} from '../lib/international';
+const {id,locale,variant='detail',href}=Astro.props as {id:string,locale:Locale,variant?:string,href?:string};
+const p=photo(id),t=copy[locale],caption=t.captions[ids.indexOf(id)];
+---
+{p&&<figure class={`editorial-photo photo-${variant}`}>
+{href?<a href={href}><Image src={p.image} alt={caption} widths={[480,900,1600]} sizes="90vw" loading="lazy"/></a>:<Image src={p.image} alt={caption} widths={[480,900,1600]} sizes="90vw" loading={variant==='hero'?'eager':'lazy'}/>}
+<figcaption><span>{caption} · {p.photographed_at.slice(0,4)}</span><span><a href={p.source_url}>{p.author}</a> · <a href={p.license_url}>{p.license}</a> · {t.photo}</span></figcaption></figure>}

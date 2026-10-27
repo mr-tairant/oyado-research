@@ -1,8 +1,8 @@
 {
   "review_status": "approved",
   "reviewer": "mr-tairant",
-  "approval_evidence": "Original approval of five Japanese articles and photography retained without content changes. On 2026-10-26 the user reviewed the redesigned Japanese UI and screenshots for 49fb31e, then said: 「うん、なんかいいね！これでコミットしてマージしてOK。」 and 「pushしてOK。」 after being informed that Japanese UI reapproval was required before publication. Scope: redesigned UI, shared components and styles; main push triggers Cloudflare Pages publication.",
-  "prepared_at": "2026-10-26T12:52:32.968Z",
+  "approval_evidence": "Existing five Japanese article and editorial UI approvals retained. On 2026-10-27 the user explicitly requested Korean and Chinese links on the Japanese and English pages and authorized commit and push: 「OK。日本語ページと英語ページに、韓国語ページ、中国語ページへのリンクがないんだけど追加お願い。その対応が終わったらコミット→プッシュまでGO。」 Scope of this Japanese UI approval: the requested review-only language links and navigation wrapping in Layout.astro. Korean and Chinese translation publication is not approved by this record.",
+  "prepared_at": "2026-10-27T00:42:35.393Z",
   "hashes": {
     "src/lib/ja.ts": "9e31160ebfedf4392f7ab5ae0a54b41be9850e964fc604c0909951e499c039d2",
     "src/pages/ja/[...page].astro": "aac36b0917520b2c44389814e0ef9dd40d8da2acda5a55d9b52727b542cd6525",
@@ -10,7 +10,7 @@
     "src/components/Regions.astro": "6820532f70933479b7a75c148e312b597c6c583122e344d7c8ac28aae08adb01",
     "src/components/Card.astro": "e4fe77248bf6226ccdaed75db9e2c317fe8d1c82ef23b4f91eb76c61e7e3c526",
     "src/components/Photo.astro": "df7f4853a3474ccf9e5f9c13b45d9c6235e8dc650a7c449fe6910bf17afcbcd1",
-    "src/layouts/Layout.astro": "1cb1ee15cfb25aec6d10facc31b3f65533019964f66f473141f388d6ea1f5ae3",
+    "src/layouts/Layout.astro": "2f3761f8732d4f69c5556cfe24857b26b5e8de99a9ff83b57354e895df24032e",
     "src/styles/global.css": "22cd388ce2db81426e3992f4ce4e9dbf2bf74aea90590a8f9bab7687bf44a33d",
     "src/styles/editorial.css": "10debd25f7108d610f929e17044e7fda307c6d077c9504a167e3d4cc96958be8",
     "src/content/stays-ja/hoshinoya-karuizawa.md": "add70cf511bf82bc8ef71d48ed37991450a3c7d66860d804c6fb1884cbd9e659",
@@ -19,5 +19,5 @@
     "src/content/stays-ja/kiraku.md": "e7ffaf0c8beb9831d68dfd9a836e1b7795719d6fdc8dba145e596131b448a99e",
     "src/content/stays-ja/yamatoya.md": "66dec212367d899f981bdba06be4eb9288c7ce5447b4892b397f60d8f7fa9cc4"
   },
-  "approved_at": "2026-10-26T12:52:33.068Z"
+  "approved_at": "2026-10-27T00:42:35.484Z"
 }
